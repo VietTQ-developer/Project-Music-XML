@@ -285,4 +285,19 @@
             </audio>
         </audios>
     </category>
+
+
+    <!--Code của quang mập-->
+    <category>
+        <name><!--Tên thể loại--></name>
+        <audios>
+            <audio></audio>
+            <audio></audio>
+            <audio></audio>
+            <audio></audio>
+        </audios>
+    </category>
+
+
+
 </music>
