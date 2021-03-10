@@ -38,11 +38,16 @@
         </audios>
     </category>
     <category>
-      <name>Cách mạng</name>
-      <audios>
-        <audio>
-        
-        </audio>
-      </audios>
+        <name>US-UK</name>
+        <audios>
+            <audio>
+                <singer>Ariana Grande</singer>
+                <title>34+35</title>
+                <image>./images/audio5.jpg</image>
+                <path>./songs/US-UK/3435-ArianaGrande-6948001.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+        </audios>
     </category>
 </music>
