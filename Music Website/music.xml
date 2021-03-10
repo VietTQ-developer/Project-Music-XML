@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<catalog>
+  <audio>
+    <singer>Quang Lê, Mai Thiên Vân</singer>
+    <title>Căn nhà màu tím</title>
+    <category>Trữ tình</category>
+    <image>./images/audio1.jpg</image>
+    <path>./songs/Can-Nha-Mau-Tim-Quang-Le-Mai-Thien-Van.mp3</path> 
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications with XML.</description>
+  </audio>
+  <audio>
+    <singer>Quang Lê</singer>
+    <title>Đập vỡ cây đàn</title>
+    <category>Rock</category>
+    <image>./images/audio2.jpg</image>
+    <path>./songs/Dap-Vo-Cay-Dan-Quang-Le.mp3</path>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications with XML.</description>
+  </audio>
+  <audio>
+    <singer>Quang Lê</singer>
+    <title>Sầu tím thiệp hồng</title>
+    <category>Trữ tình</category>
+    <image>./images/audio4.jpg</image>
+    <path>./songs/Sau-Tim-Thiep-Hong-Quang-Le-Le-Quyen.mp3</path>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications with XML.</description>
+  </audio>
+  <audio>
+    <singer>Quang Lê</singer>
+    <title>Xuân này con không về</title>
+    <category>Trữ tình</category>
+    <image>./images/audio5.jpg</image>
+    <path>./songs/Xuan-Nay-Con-Khong-Ve-Quang-Le.mp3</path>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications with XML.</description>
+  </audio>
+</catalog>
