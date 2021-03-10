@@ -36,8 +36,88 @@
                 <description>An in-depth look at creating applications with XML.</description>
             </audio>
         </audios>
-    </category>
-    <category>
+        <name>Cách mạng</name>
+        <audios>
+            <audio>
+                <singer>Doãn Tần,Thanh Vinh</singer>
+                <title>Vì Nhân Dân Quên Mình</title>
+                <image>./images/Vi-Nhan-Dan-Quen-Minh.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Vi-Nhan-Dan-Quen-Minh.mp3</path>
+                <publish_date>1951-05-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Ái Xuân</singer>
+                <title>Xuân Chiến Khu</title>
+                <image>./images/Xuan-Chien-Khu.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Xuan-Chien-Khu.mp3</path>
+                <publish_date>1963</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Trung Đức</singer>
+                <title>Chiếc Gậy Trường Sơn</title>
+                <image>./images/chiec-gay-truong-son.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Chiec-Gay-Truong-Son.mp3</path>
+                <publish_date>1967</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Tường Vy</singer>
+                <title>Cô Gái Gót Chông</title>
+                <image>./images/Co-Gai-Got-Chong.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Co-Gai-Vot-Chong.mp3</path>
+                <publish_date>1965</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Vũ Dậu</singer>
+                <title>Hành Khúc Ngày Và Đêm</title>
+                <image>./images/Hanh-Khuc-Ngay-Va-Dem.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Hanh-Khuc-Ngay-Va-Dem.mp3</path>
+                <publish_date>1972</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Tuyết Thanh,Thúy Loan</singer>
+                <title>Đường Tôi Đi Dài Theo Đất Nước</title>
+                <image>./images/Duong-Toi-Di-Dai-Theo-Dat-Nuoc.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Duong-Toi-Di-Dai-Theo-Dat-Nuoc.mp3</path>
+                <publish_date>1965</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Hợp xướng Đài TNVN</singer>
+                <title>Qua Miền Tây Bắc</title>
+                <image>./images/Qua-Mien-Tay-Bac.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Qua-Mien-Tay-Bac.mp3</path>
+                <publish_date>1952</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Tốp Ca</singer>
+                <title>Hát Mãi Khúc Quân Hành</title>
+                <image>./images/Hat-Mai-Khuc-Quan-Hanh.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Hat-Mai-Khuc-Quan-Hanh.mp3</path>
+                <publish_date>1979</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Tốp Ca</singer>
+                <title>Chiến Thắng Điện Biên</title>
+                <image>./images/Chien-Thang-Dien-Bien.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Chien-Thang-Dien-Bien.mp3</path>
+                <publish_date>1954</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Quang Thọ,Hợp Xướng</singer>
+                <title>Người Là Niềm Tin Tất Thắng</title>
+                <image>./images/Nguoi-La-Niem-Tin-Tat-Thang.jpg</image>
+                <path>./songs/Nhac_Cach_Mang/Nguoi-La-Niem-Tin-Tat-Thang.mp3</path>
+                <publish_date>1969</publish_date>
+            </audio>
+        </audios>
         <name>Thiếu Nhi</name>
         <audios>
             <audio>
@@ -121,8 +201,6 @@
                 <description>An in-depth look at creating applications with XML.</description>
             </audio>
         </audios>
-    </category>
-    <category>
         <name>US-UK</name>
         <audios>
             <audio>
