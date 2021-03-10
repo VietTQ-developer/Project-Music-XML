@@ -36,9 +36,6 @@
                 <description>An in-depth look at creating applications with XML.</description>
             </audio>
         </audios>
-    </category>
-    <category>
-<<<<<<< HEAD
         <name>Cách mạng</name>
         <audios>
             <audio>
@@ -119,7 +116,8 @@
                 <image>./images/Nguoi-La-Niem-Tin-Tat-Thang.jpg</image>
                 <path>./songs/Nhac_Cach_Mang/Nguoi-La-Niem-Tin-Tat-Thang.mp3</path>
                 <publish_date>1969</publish_date>
-=======
+            </audio>
+        </audios>
         <name>Thiếu Nhi</name>
         <audios>
             <audio>
@@ -203,8 +201,6 @@
                 <description>An in-depth look at creating applications with XML.</description>
             </audio>
         </audios>
-    </category>
-    <category>
         <name>US-UK</name>
         <audios>
             <audio>
@@ -239,7 +235,7 @@
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
             </audio>
-             <audio>
+            <audio>
                 <singer>Charlie Puth</singer>
                 <title>Is it just me</title>
                 <image>./images/is-it-just-me.jpg</image>
@@ -285,7 +281,6 @@
                 <image>./images/willow.png</image>
                 <path>./songs/US-UK/Willow-TaylorSwift-6916338.mp3</path>
                 <publish_date>2000-10-01</publish_date>
->>>>>>> refs/remotes/origin/master
                 <description>An in-depth look at creating applications with XML.</description>
             </audio>
         </audios>
