@@ -37,6 +37,99 @@
             </audio>
         </audios>
     </category>
+
+
+    <category>
+        <name>Thiếu Nhi</name>
+        <audios>
+            <audio>
+                <singer>Duy Uyên</singer>
+                <title>Ba Bà Đi Bán Lợn Con</title>
+                <image>./images/ba-ba-di-ban-lon-con.jpg</image>
+                <path>./songs/Long/Ba-Ba-Di-Ban-Lon.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Yến Nhi</singer>
+                <title>Bố Là Tất Cả</title>
+                <image>./images/Bo-La-Tat-Ca.jpg</image>
+                <path>./songs/Long/Bo-La-Tat-Ca.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>V.A</singer>
+                <title>Chú Cuội Cung Trăng</title>
+                <image>./images/Chu-Cuoi-Cung-Trang.jpg</image>
+                <path>./songs/Long/Chu-Cuoi-Cung-Trang.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bé Na</singer>
+                <title>Con Heo Đất</title>
+                <image>./images/Con-Heo-Dat.jpg</image>
+                <path>./songs/Long/Con-Heo-Dat.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Khánh Linh</singer>
+                <title>Một Con Vịt</title>
+                <image>./images/Mot-Con-Vit.jpg</image>
+                <path>./songs/Long/Mot-Con-Vit.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Hạnh Dung, Bé Tuệ Minh, Bé Bách Linh</singer>
+                <title>Ngày Tết Thiếu Nhi</title>
+                <image>./images/Ngay-Tet-Thieu-Nhi.jpg</image>
+                <path>./songs/Long/Ngay-Tet-Thieu-Nhi.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Thúy Vi, Mỹ Duyên</singer>
+                <title>Thiếu Nhi Thế Giới Vui Liên Hoan</title>
+                <image>./images/Thieu-Nhi-The-Gioi-Vui-Lien-Hoan.jpg</image>
+                <path>./songs/Long/Thieu-Nhi-The-Gioi-Vui-Lien-Hoan.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Xuân Mai</singer>
+                <title>Trường Mầm Non</title>
+                <image>./images/Truong-Mam-Non.jpg</image>
+                <path>./songs/Long/Truong-Mam-Non.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bé Thùy Dương, Bé Linh Chi, Hạnh Dung</singer>
+                <title>Vui Trung Thu</title>
+                <image>./images/Vui-Trung-Thu.jpg</image>
+                <path>./songs/Long/Vui-Trung-Thu.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bảo An</singer>
+                <title>Xúc Xác Xúc Xẻ</title>
+                <image>./images/Xuc-Xac-Xuc-Xe.jpg</image>
+                <path>./songs/Long/Xuc-Xac-Xuc-Xe.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+        </audios>
+    </category>
+
+
+
+
+
+
     <category>
         <name>US-UK</name>
         <audios>
