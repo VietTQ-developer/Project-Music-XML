@@ -45,8 +45,14 @@ var docname = "music1.xml";
 
 let songs = [];
 var list_tru_tinh = [];
+<<<<<<< HEAD
 var list_rock = [];
 var list_cach_mang = [];
+=======
+var list_cach_mang = [];
+var list_thieu_nhi = [];
+var list_us_uk = [];
+>>>>>>> 5acc635b085cc155f3710657fd113b6f32e2dbc8
 
 function loadXML() {
     try {
@@ -92,7 +98,7 @@ function showFeed() {
     singer.innerHTML = singerlist[index].firstChild.nodeValue;
     // cate.innerHTML = catelist[index].firstChild.nodeValue;;
 
-
+    //----------------------------------------------------------
     //get list Trữ tình
     var tru_tinh_node = xmlDoc.querySelectorAll("audio[name='tru_tinh']");
 
@@ -111,6 +117,7 @@ function showFeed() {
             })
         }
     }
+<<<<<<< HEAD
     var cach_mang_node = xmlDoc.querySelectorAll("audio[name='cach_mang']");
 
     for (i = 0; i < cach_mang_node.length; i++) {
@@ -128,11 +135,41 @@ function showFeed() {
             })
         }
     }
+=======
+    //----------------------------------------------------------
+
+
+    //----------------------------------------------------------
+    //get list US-UK
+    var us_uk_node = xmlDoc.querySelectorAll("audio[name='us_uk']");
+
+    for (i = 0; i < us_uk_node.length; i++) {
+        var us_uk_title = us_uk_node[i].getElementsByTagName('title');
+        var us_uk_singer = us_uk_node[i].getElementsByTagName('singer');
+        var us_uk_image = us_uk_node[i].getElementsByTagName('image');
+        var us_uk_path = us_uk_node[i].getElementsByTagName('path');
+        for (j = 0; j < tru_tinh_title.length; j++) {
+            // console.log(haha[j].firstChild.nodeValue);
+            list_us_uk.push({
+                name: us_uk_title[j].firstChild.nodeValue,
+                singer: us_uk_singer[j].firstChild.nodeValue,
+                image: us_uk_image[j].firstChild.nodeValue,
+                path: us_uk_path[j].firstChild.nodeValue,
+            })
+        }
+    }
+    //----------------------------------------------------------
+
+>>>>>>> 5acc635b085cc155f3710657fd113b6f32e2dbc8
 }
 
 console.log(songs);
 console.log(list_tru_tinh);
+<<<<<<< HEAD
 console.log(list_cach_mang);
+=======
+console.log(list_us_uk);
+>>>>>>> 5acc635b085cc155f3710657fd113b6f32e2dbc8
 loadXML();
 
 function loadTrack(index) {
