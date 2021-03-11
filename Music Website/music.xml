@@ -36,6 +36,610 @@
                 <description>An in-depth look at creating applications with XML.</description>
             </audio>
         </audios>
+<<<<<<< HEAD
+        </category>
+
+        <category>
+            <name>Cách mạng</name>
+            <audios>
+                <audio>
+                    <singer>Doãn Tần,Thanh Vinh</singer>
+                    <title>Vì Nhân Dân Quên Mình</title>
+                    <image>./images/Vi-Nhan-Dan-Quen-Minh.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Vi-Nhan-Dan-Quen-Minh.mp3</path>
+                    <publish_date>1951-05-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Ái Xuân</singer>
+                    <title>Xuân Chiến Khu</title>
+                    <image>./images/Xuan-Chien-Khu.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Xuan-Chien-Khu.mp3</path>
+                    <publish_date>1963</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Trung Đức</singer>
+                    <title>Chiếc Gậy Trường Sơn</title>
+                    <image>./images/chiec-gay-truong-son.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Chiec-Gay-Truong-Son.mp3</path>
+                    <publish_date>1967</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Tường Vy</singer>
+                    <title>Cô Gái Gót Chông</title>
+                    <image>./images/Co-Gai-Got-Chong.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Co-Gai-Vot-Chong.mp3</path>
+                    <publish_date>1965</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Vũ Dậu</singer>
+                    <title>Hành Khúc Ngày Và Đêm</title>
+                    <image>./images/Hanh-Khuc-Ngay-Va-Dem.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Hanh-Khuc-Ngay-Va-Dem.mp3</path>
+                    <publish_date>1972</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Tuyết Thanh,Thúy Loan</singer>
+                    <title>Đường Tôi Đi Dài Theo Đất Nước</title>
+                    <image>./images/Duong-Toi-Di-Dai-Theo-Dat-Nuoc.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Duong-Toi-Di-Dai-Theo-Dat-Nuoc.mp3</path>
+                    <publish_date>1965</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Hợp xướng Đài TNVN</singer>
+                    <title>Qua Miền Tây Bắc</title>
+                    <image>./images/Qua-Mien-Tay-Bac.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Qua-Mien-Tay-Bac.mp3</path>
+                    <publish_date>1952</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Tốp Ca</singer>
+                    <title>Hát Mãi Khúc Quân Hành</title>
+                    <image>./images/Hat-Mai-Khuc-Quan-Hanh.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Hat-Mai-Khuc-Quan-Hanh.mp3</path>
+                    <publish_date>1979</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Tốp Ca</singer>
+                    <title>Chiến Thắng Điện Biên</title>
+                    <image>./images/Chien-Thang-Dien-Bien.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Chien-Thang-Dien-Bien.mp3</path>
+                    <publish_date>1954</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Quang Thọ,Hợp Xướng</singer>
+                    <title>Người Là Niềm Tin Tất Thắng</title>
+                    <image>./images/Nguoi-La-Niem-Tin-Tat-Thang.jpg</image>
+                    <path>./songs/Nhac_Cach_Mang/Nguoi-La-Niem-Tin-Tat-Thang.mp3</path>
+                    <publish_date>1969</publish_date>
+                </audio>
+            </audios>
+        </category>
+
+        <category>
+            <name>Thiếu Nhi</name>
+            <audios>
+                <audio>
+                    <singer>Duy Uyên</singer>
+                    <title>Ba Bà Đi Bán Lợn Con</title>
+                    <image>./images/ba-ba-di-ban-lon-con.jpg</image>
+                    <path>./songs/Long/Ba-Ba-Di-Ban-Lon.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Yến Nhi</singer>
+                    <title>Bố Là Tất Cả</title>
+                    <image>./images/Bo-La-Tat-Ca.jpg</image>
+                    <path>./songs/Long/Bo-La-Tat-Ca.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>V.A</singer>
+                    <title>Chú Cuội Cung Trăng</title>
+                    <image>./images/Chu-Cuoi-Cung-Trang.jpg</image>
+                    <path>./songs/Long/Chu-Cuoi-Cung-Trang.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Bé Na</singer>
+                    <title>Con Heo Đất</title>
+                    <image>./images/Con-Heo-Dat.jpg</image>
+                    <path>./songs/Long/Con-Heo-Dat.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Khánh Linh</singer>
+                    <title>Một Con Vịt</title>
+                    <image>./images/Mot-Con-Vit.jpg</image>
+                    <path>./songs/Long/Mot-Con-Vit.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Hạnh Dung, Bé Tuệ Minh, Bé Bách Linh</singer>
+                    <title>Ngày Tết Thiếu Nhi</title>
+                    <image>./images/Ngay-Tet-Thieu-Nhi.jpg</image>
+                    <path>./songs/Long/Ngay-Tet-Thieu-Nhi.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Thúy Vi, Mỹ Duyên</singer>
+                    <title>Thiếu Nhi Thế Giới Vui Liên Hoan</title>
+                    <image>./images/Thieu-Nhi-The-Gioi-Vui-Lien-Hoan.jpg</image>
+                    <path>./songs/Long/Thieu-Nhi-The-Gioi-Vui-Lien-Hoan.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Xuân Mai</singer>
+                    <title>Trường Mầm Non</title>
+                    <image>./images/Truong-Mam-Non.jpg</image>
+                    <path>./songs/Long/Truong-Mam-Non.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Bé Thùy Dương, Bé Linh Chi, Hạnh Dung</singer>
+                    <title>Vui Trung Thu</title>
+                    <image>./images/Vui-Trung-Thu.jpg</image>
+                    <path>./songs/Long/Vui-Trung-Thu.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Bảo An</singer>
+                    <title>Xúc Xác Xúc Xẻ</title>
+                    <image>./images/Xuc-Xac-Xuc-Xe.jpg</image>
+                    <path>./songs/Long/Xuc-Xac-Xuc-Xe.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+            </audios>
+        </category>
+        
+        <category>
+            <name>US-UK</name>
+            <audios>
+                <audio>
+                    <singer>Ariana Grande</singer>
+                    <title>34+35</title>
+                    <image>./images/ariana_grande.jpg</image>
+                    <path>./songs/US-UK/3435-ArianaGrande-6948001.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Olive Rodrigo</singer>
+                    <title>Driver License</title>
+                    <image>./images/Olive-Rodrigo.jpg</image>
+                    <path>./songs/US-UK/DriverLicense-OliviaRodrigo-6916171.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Zayn Sia</singer>
+                    <title>Dush Till Dawn</title>
+                    <image>./images/Zayn-Sia.jpg</image>
+                    <path>./songs/US-UK/DuskTillDawn-ZaynSia-5164057.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Selena Gomez ft. BLACKPINK</singer>
+                    <title>Ice Cream</title>
+                    <image>./images/ice-cream.jpg</image>
+                    <path>./songs/US-UK/IceCreamWithSelenaGomez-BLACKPINK-6720101.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Charlie Puth</singer>
+                    <title>Is it just me</title>
+                    <image>./images/is-it-just-me.jpg</image>
+                    <path>./songs/US-UK/IsItJustMe-SashaSloanCharliePuth-6832041.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Justin Bieber ft.Benny Blanco</singer>
+                    <title>Lonely</title>
+                    <image>./images/lonely.jpg</image>
+                    <path>./songs/US-UK/Lonely-JustinBieberBennyBlanco-6735761.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Ariana Grande</singer>
+                    <title>Position</title>
+                    <image>./images/position.jpg</image>
+                    <path>./songs/US-UK/Positions-ArianaGrande-6948011.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Shawn Mendes ft. Camila Cabello</singer>
+                    <title>Seorita</title>
+                    <image>./images/seorita.jpg</image>
+                    <path>./songs/US-UK/Seorita-ShawnMendesCamilaCabello-6007813.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>The ChainSmokers Coldplay</singer>
+                    <title>Something just like this</title>
+                    <image>./images/something-just-like-it.png</image>
+                    <path>./songs/US-UK/SomethingJustLikeThis-TheChainsmokersColdplay-5337136.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+                <audio>
+                    <singer>Taylor Swift</singer>
+                    <title>Willow</title>
+                    <image>./images/willow.png</image>
+                    <path>./songs/US-UK/Willow-TaylorSwift-6916338.mp3</path>
+                    <publish_date>2000-10-01</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+            </audios>
+        </category>
+
+
+
+
+        <!--Code của quang mập-->
+        <category>
+            <name>
+                Bolero 
+            </name>
+            <audios>
+                <audio>
+                    <singer>Quang Lê</singer>
+                    <title>Căn nhà màu tím</title>
+                    <image>../images/cannhamautim.jpg</image>
+                    <path>../songs/Quang-bolero/Can-Nha-Mau-Tim-Quang-Le-Mai-Thien-Van.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Giáng Tiên</singer>
+                    <title>Chiều Sân Ga</title>
+                    <image>../images/chieusanga.jpg</image>
+                    <path>../songs/Quang-bolero/Chieu-San-Ga-Giang-Tien.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Lưu ánh Loan</singer>
+                    <title>Con Đường xưa em đi</title>
+                    <image>../images/conduongxuaemdi.jpg</image>
+                    <path>../songs/Quang-bolero/Con-Duong-Xua-Em-Di-Luu-Anh-Loan-Le-Sang.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Lê Sang</singer>
+                    <title>Đắp Mộ Cuộc Tình</title>
+                    <image>../images/dapmocuoctinh.jpg</image>
+                    <path>../songs/Quang-bolero/Dap-Mo-Cuoc-Tinh-Le-Sang.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Quang Lê</singer>
+                    <title>Đập Vỡ Cây Đàn</title>
+                    <image>../images/dapvocaydan.jpg</image>
+                    <path>../songs/Quang-bolero/Dap-Vo-Cay-Dan-Quang-Le.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Trường Vũ</singer>
+                    <title>Đêm Buồn Tỉnh Lẻ</title>
+                    <image>../images/dembuongtinhle.jpg</image>
+                    <path>../songs/Quang-bolero/Dem-Buon-Tinh-Le-Truong-Vu.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Ngọc Thảo , Cao Hoàng nghi</singer>
+                    <title>Đường Tím Bằng Lăng</title>
+                    <image>../images/duongtimbanglang.jpg</image>
+                    <path>../songs/Quang-bolero/Duong-Tim-Bang-Lang-Ngoc-Thao-Cao-Hoang-Nghi.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Giang Tiến , Dương Ngọc Thái</singer>
+                    <title>Đường Tình Đôi Ngã</title>
+                    <image>../images/duongtinhdoinga.jpg</image>
+                    <path>../songs/Quang-bolero/Duong-Tinh-Doi-Nga-Giang-Tien-Duong-Ngoc-Thai.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Tiết Duy Hòa</singer>
+                    <title>Đường Trần Lá Đổ</title>
+                    <image>../images/duongtranlado.jpg</image>
+                    <path>../songs/Quang-bolero/Duong-Tran-La-Do-Tiet-Duy-Hoa.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Như Quỳnh</singer>
+                    <title>Duyên Phận</title>
+                    <image>../images/duyenphan.jpg</image>
+                    <path>../songs/Quang-bolero/Duyen-Phan-Nhu-Quynh.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Mai Lệ Quyên</singer>
+                    <title>Khóc Thầm</title>
+                    <image>../images/khoctham.jpg</image>
+                    <path>../songs/Quang-bolero/Khoc-Tham-Manh-Quynh.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Lệ Quyên</singer>
+                    <title>Kiếp cầm ca</title>
+                    <image>../images/kiepcamca.jpg</image>
+                    <path>../songs/Quang-bolero/Kiep-Cam-Ca-Le-Quyen.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Cẩm Ly , Quốc Đại</singer>
+                    <title>Lâu Đài Tình Ái</title>
+                    <image>../images/laudaitinhai.jpg</image>
+                    <path>../songs/Quang-bolero/Lau-Dai-Tinh-Ai-Cam-Ly-Quoc-Dai.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Như Quỳnh</singer>
+                    <title>Vùng Lá Me Bay</title>
+                    <image>../images/vunglamebay.jpg</image>
+                    <path>../songs/Quang-bolero/Vung-La-Me-Bay-Nhu-Quynh.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Hương Ly</singer>
+                    <title>Xuân Nay con về mẹ ở đâu</title>
+                    <image>../images/xuannayconvemeodau.jpg</image>
+                    <path>../songs/Quang-bolero/Xuan-Nay-Con-Ve-Me-O-Dau-Khuu-Huy-Vu.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Mai Thiên Vân</singer>
+                    <title>Yêu Lắm</title>
+                    <image>../images/yeulam.jpg</image>
+                    <path>../songs/Quang-bolero/Yeu-Lam-Mai-Thien-Van.mp3</path>
+                    <publish_date>2010-12-04</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+            </audios>
+
+        </category>
+
+        <category>
+            <name>
+                Blue/Jazz  
+            </name>
+            <audios>
+                <audio>
+                    <singer>Ella,Fitzgerald</singer>
+                    <title>Autumn In New York</title>
+                    <image>../images/Autumn-In-New-York-Ella-Fitzgerald.jpg</image>
+                    <path>../songs/Quang-bolero/Autumn-In-New-York-Ella-Fitzgerald.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Youn-Sun</singer>
+                    <title>Evening Star Nah</title>
+                    <image>../images/Evening-Star-Nah-Youn-Sun.jpg</image>
+                    <path>../songs/Quang-bolero/Evening-Star-Nah-Youn-Sun.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>John Coltrane</singer>
+                    <title>Nancy With The Laughing Face</title>
+                    <image>../images/Nancy-With-The-Laughing-Face-Sept-18-1962-Ballads-John-Coltrane.jpg</image>
+                    <path>../songs/Quang-bolero/Nancy-With-The-Laughing-Face-Sept-18-1962-Ballads-John-Coltrane.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>trần Thu Hà</singer>
+                    <title>Phố Nghèo</title>
+                    <image>../images/Pho-Ngheo-Tran-Thu-Ha.jpg</image>
+                    <path>../songs/Quang-bolero/Pho-Ngheo-Tran-Thu-Ha.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Nguyên Thảo</singer>
+                    <title>Suối Và Cỏ</title>
+                    <image>../images/Suoi-Va-Co-Nguyen-Thao.jpg</image>
+                    <path>../songs/Quang-bolero/Suoi-Va-Co-Nguyen-Thao.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Văn Mai Hương</singer>
+                    <title>Tình Lãng Phí</title>
+                    <image>../images/Tinh-Lang-Phi-Van-Mai-Huong.jpg</image>
+                    <path>../songs/Quang-bolero/Tinh-Lang-Phi-Van-Mai-Huong.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+<<<<<<< HEAD
+<category>
+        <name>Rock</name>
+        <audios>
+            <audio>
+                <singer>MTV</singer>
+                <title>Rock Sài Gòn</title>
+                <image>./images/Rock-Sai-Gon.jpg</image>
+                <path>./songs/Rock/Rock-Sai-Gon.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Bông Hồng Thủy Tinh</title>
+                <image>./images/bong-hong-thuy-tinh.jpg</image>
+                <path>./songs/Rock/Bong-Hong-Thuy-Tinh.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Đất Việt</title>
+                <image>./images/Dat-Viet.jpg</image>
+                <path>./songs/Rock/Dat-Viet.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Đường Đến Ngày Vinh Quang</title>
+                <image>./images/Duong-Den-Ngay-Vinh-Quang.jpg</image>
+                <path>./songs/Rock/Duong-Den-Vinh-Quang.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Hoa Ban Trắng</title>
+                <image>./images/Hoa-Ban-Trang.jpg</image>
+                <path>./songs/Rock/Hoa-Ban-Trang.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Người Đàn Bà Hóa Đá</title>
+                <image>./images/Nguoi-Dan-Ba-Hoa-Da.jpg</image>
+                <path>./songs/Rock/Nguoi-Dan-Ba-Hoa-Da.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Những Chuyến Đi Dài</title>
+                <image>./images/Nhung-Chuyen-Di-Dai.jpg</image>
+                <path>./songs/Rock/Nhung-Chuyen-Di-Dai.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Niềm Tin Cho Các Bụi</title>
+                <image>./images/Niem-Tin-Cho-Cac-Bui.jpg</image>
+                <path>./songs/Rock/Niem-Tin-Cho-Cat-Bui.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Nối Vòng Tay Lớn</title>
+                <image>./images/Noi-Vong-Tay-Lon.jpg</image>
+                <path>./songs/Rock/Noi-Vong-Tay-Lon.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Rung Chuông Vàng</title>
+                <image>./images/Rung-Chuong-Vang.jpg</image>
+                <path>./songs/Rock/Rung-Chuong-Vang.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+           
+    </category>
+
+
+=======
+                <audio>
+                    <singer>Carin Lundin</singer>
+                    <title>What Now My Love</title>
+                    <image>../images/What-Now-My-Love-Carin-Lundin.jpg</image>
+                    <path>../songs/Quang-bolero/What-Now-My-Love-Carin-Lundin.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+>>>>>>> a49a2edba8c388aa7d64db2ff40cb4fc8dc962df
+
+                <audio>
+                    <singer>Hồ Trung Dũng</singer>
+                    <title>Xích Lô</title>
+                    <image>../images/Xich-Lo-Ho-Trung-Dung.jpg</image>
+                    <path>../songs/Quang-bolero/Xich-Lo-Ho-Trung-Dung.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Jamie Cullum</singer>
+                    <title>You And The Night And The Music</title>
+                    <image>../images/You-And-The-Night-And-The-Music-Jamie-Cullum.jpg</image>
+                    <path>../songs/Quang-bolero/You-And-The-Night-And-The-Music-Jamie-Cullum.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+
+                <audio>
+                    <singer>Caro Emerald</singer>
+                    <title>You Dont Love Me</title>
+                    <image>../images/You-Dont-Love-Me-Caro-Emerald.jpg</image>
+                    <path>../songs/Quang-bolero/You-Dont-Love-Me-Caro-Emerald.mp3</path>
+                    <publish_date>1990-05-09</publish_date>
+                    <description>An in-depth look at creating applications with XML.</description>
+                </audio>
+        </category>
+
+    </music>
+=======
     </category>
     <category>
         <name>Cách mạng</name>
@@ -304,3 +908,4 @@
         </audios>
     </category>
 </music>
+>>>>>>> ac928ec6a6171967e09393e5f094f94065b755e0

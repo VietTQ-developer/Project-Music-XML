@@ -41,57 +41,78 @@ let playingSong = false;
 
 var xmlDoc;
 var request;
-var docname = "music.xml";
+var docname = "music1.xml";
 
 let songs = [];
+var list_tru_tinh = [];
 
 function loadXML() {
-  try {
-    //IE browser
-    if (window.ActiveXObject) {
-      request = new ActiveXObject("Microsoft.XMLHTTP");
-    } else {
-      // other browsers
-      request = new window.XMLHttpRequest();
+    try {
+        //IE browser
+        if (window.ActiveXObject) {
+            request = new ActiveXObject("Microsoft.XMLHTTP");
+        } else {
+            // other browsers
+            request = new window.XMLHttpRequest();
+        }
+        request.open("GET", docname, true); //make async
+        request.send(null);
+        request.onreadystatechange = showFeed;
+    } catch (exc) {
+        alert("Error!" + exc.message);
     }
-    request.open("GET", docname, true); //make async
-    request.send(null);
-    request.onreadystatechange = showFeed;
-  } catch (exc) {
-    alert("Error!" + exc.message);
-  }
 }
 
 function showFeed() {
 
-  xmlDoc = request.responseXML.documentElement;
-  
-  var titlelist = xmlDoc.getElementsByTagName("title");
-  console.log(titlelist)
-  var pathlist = xmlDoc.getElementsByTagName("path");
-  var imagelist = xmlDoc.getElementsByTagName("image");
-  var singerlist = xmlDoc.getElementsByTagName("singer");
+    xmlDoc = request.responseXML.documentElement;
+
+    var titlelist = xmlDoc.getElementsByTagName("title");
+    console.log(titlelist)
+    var pathlist = xmlDoc.getElementsByTagName("path");
+    var imagelist = xmlDoc.getElementsByTagName("image");
+    var singerlist = xmlDoc.getElementsByTagName("singer");
 
 
-  for (i = 0; i < titlelist.length; i++) {
+    for (i = 0; i < titlelist.length; i++) {
 
-    songs.push({
-        name: titlelist[i].firstChild.nodeValue,
-        path: pathlist[i].firstChild.nodeValue,
-        image: imagelist[i].firstChild.nodeValue,
-        singer: singerlist[i].firstChild.nodeValue,
-        
-    });
-  }
-  title.innerHTML = titlelist[index].firstChild.nodeValue;
-  image.innerHTML =  imagelist[index].firstChild.nodeValue;
-  track.src = pathlist[index].firstChild.nodeValue;
-  singer.innerHTML = singerlist[index].firstChild.nodeValue;
-  cate.innerHTML = catelist[index].firstChild.nodeValue;;
-    
+        songs.push({
+            name: titlelist[i].firstChild.nodeValue,
+            path: pathlist[i].firstChild.nodeValue,
+            image: imagelist[i].firstChild.nodeValue,
+            singer: singerlist[i].firstChild.nodeValue,
+
+        });
+    }
+    title.innerHTML = titlelist[index].firstChild.nodeValue;
+    image.innerHTML = imagelist[index].firstChild.nodeValue;
+    track.src = pathlist[index].firstChild.nodeValue;
+    singer.innerHTML = singerlist[index].firstChild.nodeValue;
+    // cate.innerHTML = catelist[index].firstChild.nodeValue;;
+
+
+    //get list Trữ tình
+    var tru_tinh_node = xmlDoc.querySelectorAll("audio[name='tru_tinh']");
+
+    for (i = 0; i < tru_tinh_node.length; i++) {
+        var tru_tinh_title = tru_tinh_node[i].getElementsByTagName('title');
+        var tru_tinh_singer = tru_tinh_node[i].getElementsByTagName('singer');
+        var tru_tinh_image = tru_tinh_node[i].getElementsByTagName('image');
+        var tru_tinh_path = tru_tinh_node[i].getElementsByTagName('path');
+        for (j = 0; j < tru_tinh_title.length; j++) {
+            // console.log(haha[j].firstChild.nodeValue);
+            list_tru_tinh.push({
+                name: tru_tinh_title[j].firstChild.nodeValue,
+                singer: tru_tinh_singer[j].firstChild.nodeValue,
+                image: tru_tinh_image[j].firstChild.nodeValue,
+                path: tru_tinh_path[j].firstChild.nodeValue,
+            })
+        }
+    }
 }
 
 console.log(songs);
+console.log(list_tru_tinh);
 loadXML();
 
 function loadTrack(index) {
@@ -99,6 +120,7 @@ function loadTrack(index) {
     title.innerHTML = songs[index].name;
     image.src = songs[index].image;
     singer.innerHTML = songs[index].singer;
+
     track.load();
 }
 
@@ -149,4 +171,41 @@ function justPlay() {
     } else {
         pauseSong();
     }
+}
+
+function loadListTruTinh() {
+    const top_song = document.querySelector('#top_song');
+
+    count = 0;
+    document.querySelector('#banner-top-song').innerHTML = "Nhạc trữ tình"
+    console.log(list_tru_tinh.length)
+    for (let i = 0; i < list_tru_tinh.length; i++) {
+        count = count.toString().trim();
+        var s = '<div class="song"><img class="song-img" src="' + list_tru_tinh[i].image +
+            '"><div class="song-title"><span class="title">' + list_tru_tinh[i].name + '</span><span>' + list_tru_tinh[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + i + '"><i class="far fa-play-circle"></i></a></div>';
+
+        count = Number(count);
+        top_song.insertAdjacentHTML('beforeend', s);
+
+    }
+}
+
+function getSongToPlay(clicked_id) {
+    const p = document.getElementById(clicked_id).parentElement;
+    // console.log(p);
+    const child = p.children[1].querySelector("span[class=title]");
+    console.log(child.firstChild.nodeValue);
+
+    var textTitle = child.firstChild.nodeValue;
+
+    for (let index = 0; index < list_tru_tinh.length; index++) {
+        if (list_tru_tinh[index].name == textTitle) {
+            console.log(index)
+            loadTrack(index);
+            justPlay();
+        }
+        // justPlay(i);
+    }
+
+    // alert(clicked_id);
 }
