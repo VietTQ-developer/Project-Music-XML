@@ -155,6 +155,7 @@ function showFeed() {
     }
 
     //----------------------------------------------------------
+<<<<<<< HEAD
     //get list bolero
     var bolero_node = xmlDoc.querySelectorAll("audio[name='bolero']");
     for (i = 0; i < bolero_node.length; i++) {
@@ -169,6 +170,42 @@ function showFeed() {
                 singer: bolero_singer[j].firstChild.nodeValue,
                 image: bolero_image[j].firstChild.nodeValue,
                 path: bolero_path[j].firstChild.nodeValue,
+=======
+    // get list rock
+    var rock_node = xmlDoc.querySelectorAll("audio[name='rock']");
+
+    for (i = 0; i < rock_node.length; i++) {
+        var rock_title = rock_node[i].getElementsByTagName('title');
+        var rock_singer = rock_node[i].getElementsByTagName('singer');
+        var rock_image = rock_node[i].getElementsByTagName('image');
+        var rock_path = rock_node[i].getElementsByTagName('path');
+        for (j = 0; j < rock_title.length; j++) {
+            // console.log(haha[j].firstChild.nodeValue);
+            list_rock.push({
+                name: rock_title[j].firstChild.nodeValue,
+                singer: rock_singer[j].firstChild.nodeValue,
+                image: rock_image[j].firstChild.nodeValue,
+                path: rock_path[j].firstChild.nodeValue,
+            })
+        }
+    }
+
+    // get list thiếu nhi
+    var thieu_nhi_node = xmlDoc.querySelectorAll("audio[name='thieu_nhi']");
+
+    for (i = 0; i < thieu_nhi_node.length; i++) {
+        var thieu_nhi_title = thieu_nhi_node[i].getElementsByTagName('title');
+        var thieu_nhi_singer = thieu_nhi_node[i].getElementsByTagName('singer');
+        var thieu_nhi_image = thieu_nhi_node[i].getElementsByTagName('image');
+        var thieu_nhi_path = thieu_nhi_node[i].getElementsByTagName('path');
+        for (j = 0; j < thieu_nhi_title.length; j++) {
+            // console.log(haha[j].firstChild.nodeValue);
+            list_thieu_nhi.push({
+                name: thieu_nhi_title[j].firstChild.nodeValue,
+                singer: thieu_nhi_singer[j].firstChild.nodeValue,
+                image: thieu_nhi_image[j].firstChild.nodeValue,
+                path: thieu_nhi_path[j].firstChild.nodeValue,
+>>>>>>> 99533f0b109c732f0bbd5929425ffbbc04dd652c
             })
         }
     }
@@ -197,8 +234,14 @@ console.log(songs);
 console.log(list_tru_tinh);
 console.log(list_cach_mang);
 console.log(list_us_uk);
+<<<<<<< HEAD
 console.log(list_bolero)
 console.log(list_blue_jazz)
+=======
+console.log(list_rock);
+console.log(list_thieu_nhi);
+
+>>>>>>> 99533f0b109c732f0bbd5929425ffbbc04dd652c
 loadXML();
 
 function loadTrack(index) {
