@@ -5,7 +5,7 @@ const next = document.querySelector('#next');
 const title = document.querySelector('#title');
 const image = document.querySelector('#image');
 const singer = document.querySelector('#singer');
-const cate = document.querySelector('#cate');
+// const cate = document.querySelector('#cate');
 
 const track = document.createElement('audio');
 
@@ -71,7 +71,6 @@ function showFeed() {
   var pathlist = xmlDoc.getElementsByTagName("path");
   var imagelist = xmlDoc.getElementsByTagName("image");
   var singerlist = xmlDoc.getElementsByTagName("singer");
-  var catelist = xmlDoc.getElementsByTagName("category");
 
 
   for (i = 0; i < titlelist.length; i++) {
@@ -81,7 +80,6 @@ function showFeed() {
         path: pathlist[i].firstChild.nodeValue,
         image: imagelist[i].firstChild.nodeValue,
         singer: singerlist[i].firstChild.nodeValue,
-        category: catelist[i].firstChild.nodeValue,
         
     });
   }
@@ -101,7 +99,6 @@ function loadTrack(index) {
     title.innerHTML = songs[index].name;
     image.src = songs[index].image;
     singer.innerHTML = songs[index].singer;
-    cate.innerHTML = songs[index].category;
     track.load();
 }
 
