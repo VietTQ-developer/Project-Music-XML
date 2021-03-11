@@ -49,6 +49,8 @@ var list_rock = [];
 var list_cach_mang = [];
 var list_thieu_nhi = [];
 var list_us_uk = [];
+var list_bolero = [];
+var list_blue_jazz = [];
 
 function loadXML() {
     try {
@@ -141,7 +143,7 @@ function showFeed() {
         var us_uk_singer = us_uk_node[i].getElementsByTagName('singer');
         var us_uk_image = us_uk_node[i].getElementsByTagName('image');
         var us_uk_path = us_uk_node[i].getElementsByTagName('path');
-        for (j = 0; j < tru_tinh_title.length; j++) {
+        for (j = 0; j < us_uk_title.length; j++) {
             // console.log(haha[j].firstChild.nodeValue);
             list_us_uk.push({
                 name: us_uk_title[j].firstChild.nodeValue,
@@ -151,14 +153,52 @@ function showFeed() {
             })
         }
     }
-    //----------------------------------------------------------
 
+    //----------------------------------------------------------
+    //get list bolero
+    var bolero_node = xmlDoc.querySelectorAll("audio[name='bolero']");
+    for (i = 0; i < bolero_node.length; i++) {
+        var bolero_title = bolero_node[i].getElementsByTagName('title');
+        var bolero_singer = bolero_node[i].getElementsByTagName('singer');
+        var bolero_image = bolero_node[i].getElementsByTagName('image');
+        var bolero_path = bolero_node[i].getElementsByTagName('path');
+        for (j = 0; j < bolero_title.length; j++) {
+            // console.log(haha[j].firstChild.nodeValue);
+            list_bolero.push({
+                name: bolero_title[j].firstChild.nodeValue,
+                singer: bolero_singer[j].firstChild.nodeValue,
+                image: bolero_image[j].firstChild.nodeValue,
+                path: bolero_path[j].firstChild.nodeValue,
+            })
+        }
+    }
+
+    //----------------------------------------------------------
+    //get list bolero
+    var blue_jazz_node = xmlDoc.querySelectorAll("audio[name='blue-jazz']");
+    for (i = 0; i < blue_jazz_node.length; i++) {
+        var blue_jazz_title = blue_jazz_node[i].getElementsByTagName('title');
+        var blue_jazz_singer = blue_jazz_node[i].getElementsByTagName('singer');
+        var blue_jazz_image = blue_jazz_node[i].getElementsByTagName('image');
+        var blue_jazz_path = blue_jazz_node[i].getElementsByTagName('path');
+        for (j = 0; j < blue_jazz_title.length; j++) {
+            // console.log(haha[j].firstChild.nodeValue);
+            list_blue_jazz.push({
+                name: blue_jazz_title[j].firstChild.nodeValue,
+                singer: blue_jazz_singer[j].firstChild.nodeValue,
+                image: blue_jazz_image[j].firstChild.nodeValue,
+                path: blue_jazz_path[j].firstChild.nodeValue,
+            })
+        }
+    }
 }
 
 console.log(songs);
 console.log(list_tru_tinh);
 console.log(list_cach_mang);
 console.log(list_us_uk);
+console.log(list_bolero)
+console.log(list_blue_jazz)
 loadXML();
 
 function loadTrack(index) {
