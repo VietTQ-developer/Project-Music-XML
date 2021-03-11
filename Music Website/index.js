@@ -115,6 +115,9 @@ function showFeed() {
             })
         }
     }
+
+    //----------------------------------------------------------
+    //get list Casch mang
     var cach_mang_node = xmlDoc.querySelectorAll("audio[name='cach_mang']");
 
     for (i = 0; i < cach_mang_node.length; i++) {
@@ -298,21 +301,84 @@ function justPlay() {
     }
 }
 
-function loadListTruTinh() {
+// function loadListTruTinh() {
+//     const top_song = document.querySelector('#top_song');
+
+//     count = 0;
+//     document.querySelector('#banner-top-song').innerHTML = "Nhạc trữ tình"
+//     console.log(list_tru_tinh.length)
+//     for (let i = 0; i < list_tru_tinh.length; i++) {
+//         count = count.toString().trim();
+//         var s = '<div class="song"><img class="song-img" src="' + list_tru_tinh[i].image +
+//             '"><div class="song-title"><span class="title">' + list_tru_tinh[i].name + '</span><span>' + list_tru_tinh[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + i + '"><i class="far fa-play-circle"></i></a></div>';
+
+//         count = Number(count);
+//         top_song.insertAdjacentHTML('beforeend', s);
+
+//     }
+// }
+
+function loadListSong(prefixID, array) {
     const top_song = document.querySelector('#top_song');
 
     count = 0;
     document.querySelector('#banner-top-song').innerHTML = "Nhạc trữ tình"
     console.log(list_tru_tinh.length)
-    for (let i = 0; i < list_tru_tinh.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         count = count.toString().trim();
-        var s = '<div class="song"><img class="song-img" src="' + list_tru_tinh[i].image +
-            '"><div class="song-title"><span class="title">' + list_tru_tinh[i].name + '</span><span>' + list_tru_tinh[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + i + '"><i class="far fa-play-circle"></i></a></div>';
+        var s = '<div class="song"><img class="song-img" src="' + array[i].image +
+            '"><div class="song-title"><span class="title">' + array[i].name + '</span><span>' + array[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + addNewID(prefixID, i) + '"><i class="far fa-play-circle"></i></a></div>';
 
         count = Number(count);
         top_song.insertAdjacentHTML('beforeend', s);
 
     }
+}
+
+function checkClicked() {
+    const tru_tinh_id = document.getElementById("tru_tinh");
+    const us_uk_id = document.getElementById("us_uk");
+    const cach_mang_id = document.getElementById("cach_mang");
+    const rock_id = document.getElementById("rock");
+    const bolero_id = document.getElementById("bolero");
+    const thieu_nhi_id = document.getElementById("thieu_nhi");
+    const blue_jazz_id = document.getElementById("blue_jazz");
+
+
+    tru_tinh_id.addEventListener('click', (e) => {
+        removeElement();
+        loadListSong("tt", list_tru_tinh);
+    })
+    us_uk_id.addEventListener('click', (e) => {
+        removeElement()
+        loadListSong("usuk", list_us_uk);
+    })
+    cach_mang_id.addEventListener('click', (e) => {
+        removeElement()
+        loadListSong("cm", list_cach_mang);
+    })
+    rock_id.addEventListener('click', (e) => {
+        removeElement()
+        loadListSong("rck", list_rock);
+    })
+    bolero_id.addEventListener('click', (e) => {
+        removeElement()
+        loadListSong("blr", list_bolero);
+    })
+    thieu_nhi_id.addEventListener('click', (e) => {
+        removeElement()
+        loadListSong("tn", list_thieu_nhi);
+    })
+    blue_jazz_id.addEventListener('click', (e) => {
+        removeElement()
+        loadListSong("bj", list_blue_jazz);
+    })
+
+}
+
+function removeElement() {
+    const elementRemove = document.getElementsByClassName("song");
+    while (elementRemove.length > 0) elementRemove[0].remove();
 }
 
 function getSongToPlay(clicked_id) {
@@ -323,14 +389,17 @@ function getSongToPlay(clicked_id) {
 
     var textTitle = child.firstChild.nodeValue;
 
-    for (let index = 0; index < list_tru_tinh.length; index++) {
-        if (list_tru_tinh[index].name == textTitle) {
+    for (let index = 0; index < songs.length; index++) {
+        if (songs[index].name == textTitle) {
             console.log(index)
             loadTrack(index);
             justPlay();
         }
-        // justPlay(i);
     }
 
-    // alert(clicked_id);
+}
+
+function addNewID(prefixID, number) {
+    var s = prefixID + number;
+    return s;
 }

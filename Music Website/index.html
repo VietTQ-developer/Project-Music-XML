@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body onload="checkClicked()">
     <div class="container">
         <div class="slidebar">
             <div class="logo">
@@ -112,14 +112,14 @@
                                     <span>See all</span>
                                 </div>
                                 <div class="genres-table">
-                                    <span class="grid-item" id="us_uk" onclick="">US-UK</span>
-                                    <span class="grid-item" id='tru_tinh' onclick="loadListTruTinh()">Trữ tình
+                                    <span class="grid-item" id="us_uk" onclick="checkClicked()">US-UK</span>
+                                    <span class="grid-item" id='tru_tinh' onclick="checkClicked()">Trữ tình
                                     </span>
-                                    <span class="grid-item">Rock</span>
-                                    <span class="grid-item">Classical</span>
-                                    <span class="grid-item">HipHop</span>
-                                    <span class="grid-item">Desi</span>
-                                    <span class="grid-item">British</span>
+                                    <span class="grid-item" id="cach_mang" onclick="checkClicked()">Cách mạng</span>
+                                    <span class="grid-item" id="thieu_nhi" onclick="checkClicked()">Thiếu nhi</span>
+                                    <span class="grid-item" id="rock" onclick="checkClicked()">Rock</span>
+                                    <span class="grid-item" id="bolero" onclick="checkClicked()">Bolero</span>
+                                    <span class="grid-item" id="blue_jazz" onclick="checkClicked()">Jazz</span>
                                 </div>
                             </div>
                             <div class="right">
