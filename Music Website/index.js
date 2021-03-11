@@ -45,6 +45,9 @@ var docname = "music1.xml";
 
 let songs = [];
 var list_tru_tinh = [];
+var list_cach_mang = [];
+var list_thieu_nhi = [];
+var list_us_uk = [];
 
 function loadXML() {
     try {
@@ -90,7 +93,7 @@ function showFeed() {
     singer.innerHTML = singerlist[index].firstChild.nodeValue;
     // cate.innerHTML = catelist[index].firstChild.nodeValue;;
 
-
+    //----------------------------------------------------------
     //get list Trữ tình
     var tru_tinh_node = xmlDoc.querySelectorAll("audio[name='tru_tinh']");
 
@@ -109,10 +112,35 @@ function showFeed() {
             })
         }
     }
+    //----------------------------------------------------------
+
+
+    //----------------------------------------------------------
+    //get list US-UK
+    var us_uk_node = xmlDoc.querySelectorAll("audio[name='us_uk']");
+
+    for (i = 0; i < us_uk_node.length; i++) {
+        var us_uk_title = us_uk_node[i].getElementsByTagName('title');
+        var us_uk_singer = us_uk_node[i].getElementsByTagName('singer');
+        var us_uk_image = us_uk_node[i].getElementsByTagName('image');
+        var us_uk_path = us_uk_node[i].getElementsByTagName('path');
+        for (j = 0; j < tru_tinh_title.length; j++) {
+            // console.log(haha[j].firstChild.nodeValue);
+            list_us_uk.push({
+                name: us_uk_title[j].firstChild.nodeValue,
+                singer: us_uk_singer[j].firstChild.nodeValue,
+                image: us_uk_image[j].firstChild.nodeValue,
+                path: us_uk_path[j].firstChild.nodeValue,
+            })
+        }
+    }
+    //----------------------------------------------------------
+
 }
 
 console.log(songs);
 console.log(list_tru_tinh);
+console.log(list_us_uk);
 loadXML();
 
 function loadTrack(index) {
