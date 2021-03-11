@@ -332,7 +332,7 @@ function loadListSong(prefixID, array) {
     const top_song = document.querySelector('#top_song');
 
     count = 0;
-    document.querySelector('#banner-top-song').innerHTML = "Nhạc trữ tình"
+
     console.log(list_tru_tinh.length)
     for (let i = 0; i < array.length; i++) {
         count = count.toString().trim();
@@ -357,30 +357,37 @@ function checkClicked() {
 
     tru_tinh_id.addEventListener('click', (e) => {
         removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Nhạc trữ tình";
         loadListSong("tt", list_tru_tinh);
     })
     us_uk_id.addEventListener('click', (e) => {
-        removeElement()
+        removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Nhạc US-UK";
         loadListSong("usuk", list_us_uk);
     })
     cach_mang_id.addEventListener('click', (e) => {
-        removeElement()
+        removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Nhạc cách mạng";
         loadListSong("cm", list_cach_mang);
     })
     rock_id.addEventListener('click', (e) => {
-        removeElement()
+        removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Nhạc Rock";
         loadListSong("rck", list_rock);
     })
     bolero_id.addEventListener('click', (e) => {
-        removeElement()
+        removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Nhạc Bolero";
         loadListSong("blr", list_bolero);
     })
     thieu_nhi_id.addEventListener('click', (e) => {
-        removeElement()
+        removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Nhạc thiếu nhi";
         loadListSong("tn", list_thieu_nhi);
     })
     blue_jazz_id.addEventListener('click', (e) => {
-        removeElement()
+        removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Nhạc Blue-jazz";
         loadListSong("bj", list_blue_jazz);
     })
 
