@@ -526,6 +526,10 @@ body {
     overflow-y: scroll;
 }
 
+#top_song::-webkit-scrollbar {
+    display: none;
+}
+
 @keyframes hide {
     0% {
         transform: scale(.8);
