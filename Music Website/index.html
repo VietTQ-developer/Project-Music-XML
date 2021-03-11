@@ -146,7 +146,7 @@
                     <div class="right-side">
                         <p class="adp-card-title">Recently</p>
                         <div class="audio-player">
-                            <img src="./images/audio1.jpg" alt="" class="adp-img" id="image" />
+                            <img src="./images/audio1.jpg" alt="" class="adp-img" id="image" style="border-radius: 50%;" />
                             <div class="adp-title">
                                 <p id="title"></p>
                                 <!-- <p>In a Perfect World</p>
@@ -154,6 +154,9 @@
                                 <p id="cate"></p>
                                 <p id="singer"></p>
                             </div>
+                        </div>
+                        <div class="duration">
+                            <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
                         </div>
                         <div class="adp-action">
                             <a href="#" id="previous" onclick="previousSong()"><i class="fas fa-backward"></i

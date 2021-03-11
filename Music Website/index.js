@@ -6,8 +6,10 @@ const title = document.querySelector('#title');
 const image = document.querySelector('#image');
 const singer = document.querySelector('#singer');
 // const cate = document.querySelector('#cate');
+let slider = document.querySelector('#duration_slider');
 
 const track = document.createElement('audio');
+track.setAttribute("controls", "controls");
 
 let index = 0;
 let playingSong = false;
@@ -42,6 +44,9 @@ let playingSong = false;
 var xmlDoc;
 var request;
 var docname = "music1.xml";
+
+let timer;
+let autoplay = 0;
 
 let songs = [];
 var list_tru_tinh = [];
@@ -244,10 +249,15 @@ console.log(list_thieu_nhi);
 loadXML();
 
 function loadTrack(index) {
+    clearInterval(timer);
+    reset_slider();
+
     track.src = songs[index].path;
     title.innerHTML = songs[index].name;
     image.src = songs[index].image;
     singer.innerHTML = songs[index].singer;
+
+    timer = setInterval(range_slider, 1000);
 
     track.load();
 }
@@ -402,4 +412,36 @@ function getSongToPlay(clicked_id) {
 function addNewID(prefixID, number) {
     var s = prefixID + number;
     return s;
+}
+
+
+// change slider position 
+function change_duration() {
+    slider_position = track.duration * (slider.value / 100);
+    track.currentTime = slider_position;
+}
+
+function reset_slider() {
+    slider.value = 0;
+}
+
+function range_slider() {
+    let position = 0;
+
+    // update slider position
+    if (!isNaN(track.duration)) {
+        position = track.currentTime * (100 / track.duration);
+        slider.value = position;
+    }
+
+
+    // function will run when the song is over
+    if (track.ended) {
+        play.innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>';
+        if (autoplay == 1) {
+            index += 1;
+            loadTrack(index);
+            playSong();
+        }
+    }
 }

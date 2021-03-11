@@ -530,6 +530,46 @@ body {
     display: none;
 }
 
+.duration {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 7.5rem;
+}
+
+
+/* both range slider part */
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    outline: none;
+    height: 2px;
+    margin-left: -3.5rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background: #65bcff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#image {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 @keyframes hide {
     0% {
         transform: scale(.8);
