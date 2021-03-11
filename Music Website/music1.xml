@@ -10,6 +10,7 @@
                 <path>./songs/Can-Nha-Mau-Tim-Quang-Le-Mai-Thien-Van.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>112</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Quang Lê</singer>
@@ -18,6 +19,7 @@
                 <path>./songs/Dap-Vo-Cay-Dan-Quang-Le.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>132</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Quang Lê</singer>
@@ -26,6 +28,7 @@
                 <path>./songs/Sau-Tim-Thiep-Hong-Quang-Le-Le-Quyen.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>89</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Quang Lê</singer>
@@ -34,6 +37,7 @@
                 <path>./songs/Xuan-Nay-Con-Khong-Ve-Quang-Le.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>190</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Doãn Tần,Thanh Vinh</singer>
@@ -42,6 +46,7 @@
                 <path>./songs/Nhac_Cach_Mang/Vi-Nhan-Dan-Quen-Minh.mp3</path>
                 <publish_date>1951-05-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>100</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Ái Xuân</singer>
@@ -50,6 +55,7 @@
                 <path>./songs/Nhac_Cach_Mang/Xuan-Chien-Khu.mp3</path>
                 <publish_date>1963</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>50</view>
             </audio>
         </audios>
     </category>
