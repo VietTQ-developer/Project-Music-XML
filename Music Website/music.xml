@@ -38,6 +38,93 @@
         </audios>
     </category>
 
+<category>
+        <name>Rock</name>
+        <audios>
+            <audio>
+                <singer>MTV</singer>
+                <title>Rock Sài Gòn</title>
+                <image>./images/Rock-Sai-Gon.jpg</image>
+                <path>./songs/Rock/Rock-Sai-Gon.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Bông Hồng Thủy Tinh</title>
+                <image>./images/bong-hong-thuy-tinh.jpg</image>
+                <path>./songs/Rock/Bong-Hong-Thuy-Tinh.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Đất Việt</title>
+                <image>./images/Dat-Viet.jpg</image>
+                <path>./songs/Rock/Dat-Viet.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Đường Đến Ngày Vinh Quang</title>
+                <image>./images/Duong-Den-Ngay-Vinh-Quang.jpg</image>
+                <path>./songs/Rock/Duong-Den-Vinh-Quang.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Hoa Ban Trắng</title>
+                <image>./images/Hoa-Ban-Trang.jpg</image>
+                <path>./songs/Rock/Hoa-Ban-Trang.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Người Đàn Bà Hóa Đá</title>
+                <image>./images/Nguoi-Dan-Ba-Hoa-Da.jpg</image>
+                <path>./songs/Rock/Nguoi-Dan-Ba-Hoa-Da.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Những Chuyến Đi Dài</title>
+                <image>./images/Nhung-Chuyen-Di-Dai.jpg</image>
+                <path>./songs/Rock/Nhung-Chuyen-Di-Dai.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Niềm Tin Cho Các Bụi</title>
+                <image>./images/Niem-Tin-Cho-Cac-Bui.jpg</image>
+                <path>./songs/Rock/Niem-Tin-Cho-Cat-Bui.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Nối Vòng Tay Lớn</title>
+                <image>./images/Noi-Vong-Tay-Lon.jpg</image>
+                <path>./songs/Rock/Noi-Vong-Tay-Lon.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+            <audio>
+                <singer>Bức Tường</singer>
+                <title>Rung Chuông Vàng</title>
+                <image>./images/Rung-Chuong-Vang.jpg</image>
+                <path>./songs/Rock/Rung-Chuong-Vang.mp3</path>
+                <publish_date>2000-10-01</publish_date>
+                <description>An in-depth look at creating applications with XML.</description>
+            </audio>
+           
+    </category>
+
+
 
     <category>
         <name>Thiếu Nhi</name>
