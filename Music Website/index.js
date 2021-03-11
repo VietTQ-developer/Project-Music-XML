@@ -45,6 +45,8 @@ var docname = "music1.xml";
 
 let songs = [];
 var list_tru_tinh = [];
+var list_rock = [];
+var list_cach_mang = [];
 
 function loadXML() {
     try {
@@ -109,10 +111,28 @@ function showFeed() {
             })
         }
     }
+    var cach_mang_node = xmlDoc.querySelectorAll("audio[name='cach_mang']");
+
+    for (i = 0; i < cach_mang_node.length; i++) {
+        var cach_mang_title = cach_mang_node[i].getElementsByTagName('title');
+        var cach_mang_singer = cach_mang_node[i].getElementsByTagName('singer');
+        var cach_mang_image = cach_mang_node[i].getElementsByTagName('image');
+        var cach_mang_path = cach_mang_node[i].getElementsByTagName('path');
+        for (j = 0; j < cach_mang_title.length; j++) {
+            // console.log(haha[j].firstChild.nodeValue);
+            list_cach_mang.push({
+                name: cach_mang_title[j].firstChild.nodeValue,
+                singer: cach_mang_singer[j].firstChild.nodeValue,
+                image: cach_mang_image[j].firstChild.nodeValue,
+                path: cach_mang_path[j].firstChild.nodeValue,
+            })
+        }
+    }
 }
 
 console.log(songs);
 console.log(list_tru_tinh);
+console.log(list_cach_mang);
 loadXML();
 
 function loadTrack(index) {
