@@ -313,7 +313,7 @@
                 Bolero 
             </name>
             <audios>
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Quang Lê</singer>
                     <title>Căn nhà màu tím</title>
                     <image>../images/cannhamautim.jpg</image>
@@ -322,7 +322,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Giáng Tiên</singer>
                     <title>Chiều Sân Ga</title>
                     <image>../images/chieusanga.jpg</image>
@@ -331,7 +331,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Lưu ánh Loan</singer>
                     <title>Con Đường xưa em đi</title>
                     <image>../images/conduongxuaemdi.jpg</image>
@@ -340,7 +340,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Lê Sang</singer>
                     <title>Đắp Mộ Cuộc Tình</title>
                     <image>../images/dapmocuoctinh.jpg</image>
@@ -349,7 +349,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Quang Lê</singer>
                     <title>Đập Vỡ Cây Đàn</title>
                     <image>../images/dapvocaydan.jpg</image>
@@ -358,7 +358,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Trường Vũ</singer>
                     <title>Đêm Buồn Tỉnh Lẻ</title>
                     <image>../images/dembuongtinhle.jpg</image>
@@ -367,7 +367,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Ngọc Thảo , Cao Hoàng nghi</singer>
                     <title>Đường Tím Bằng Lăng</title>
                     <image>../images/duongtimbanglang.jpg</image>
@@ -376,7 +376,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Giang Tiến , Dương Ngọc Thái</singer>
                     <title>Đường Tình Đôi Ngã</title>
                     <image>../images/duongtinhdoinga.jpg</image>
@@ -385,7 +385,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Tiết Duy Hòa</singer>
                     <title>Đường Trần Lá Đổ</title>
                     <image>../images/duongtranlado.jpg</image>
@@ -394,7 +394,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Như Quỳnh</singer>
                     <title>Duyên Phận</title>
                     <image>../images/duyenphan.jpg</image>
@@ -403,7 +403,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Mai Lệ Quyên</singer>
                     <title>Khóc Thầm</title>
                     <image>../images/khoctham.jpg</image>
@@ -412,7 +412,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Lệ Quyên</singer>
                     <title>Kiếp cầm ca</title>
                     <image>../images/kiepcamca.jpg</image>
@@ -421,7 +421,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Cẩm Ly , Quốc Đại</singer>
                     <title>Lâu Đài Tình Ái</title>
                     <image>../images/laudaitinhai.jpg</image>
@@ -430,7 +430,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Như Quỳnh</singer>
                     <title>Vùng Lá Me Bay</title>
                     <image>../images/vunglamebay.jpg</image>
@@ -439,7 +439,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Hương Ly</singer>
                     <title>Xuân Nay con về mẹ ở đâu</title>
                     <image>../images/xuannayconvemeodau.jpg</image>
@@ -448,7 +448,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"bolero">
+                <audio name="bolero">
                     <singer>Mai Thiên Vân</singer>
                     <title>Yêu Lắm</title>
                     <image>../images/yeulam.jpg</image>
@@ -465,7 +465,7 @@
                 Blue/Jazz  
             </name>
             <audios>
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>Ella,Fitzgerald</singer>
                     <title>Autumn In New York</title>
                     <image>../images/Autumn-In-New-York-Ella-Fitzgerald.jpg</image>
@@ -474,7 +474,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>Youn-Sun</singer>
                     <title>Evening Star Nah</title>
                     <image>../images/Evening-Star-Nah-Youn-Sun.jpg</image>
@@ -483,7 +483,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>John Coltrane</singer>
                     <title>Nancy With The Laughing Face</title>
                     <image>../images/Nancy-With-The-Laughing-Face-Sept-18-1962-Ballads-John-Coltrane.jpg</image>
@@ -492,7 +492,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>trần Thu Hà</singer>
                     <title>Phố Nghèo</title>
                     <image>../images/Pho-Ngheo-Tran-Thu-Ha.jpg</image>
@@ -501,7 +501,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>Nguyên Thảo</singer>
                     <title>Suối Và Cỏ</title>
                     <image>../images/Suoi-Va-Co-Nguyen-Thao.jpg</image>
@@ -510,7 +510,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>Văn Mai Hương</singer>
                     <title>Tình Lãng Phí</title>
                     <image>../images/Tinh-Lang-Phi-Van-Mai-Huong.jpg</image>
@@ -519,7 +519,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>Carin Lundin</singer>
                     <title>What Now My Love</title>
                     <image>../images/What-Now-My-Love-Carin-Lundin.jpg</image>
@@ -528,7 +528,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>Hồ Trung Dũng</singer>
                     <title>Xích Lô</title>
                     <image>../images/Xich-Lo-Ho-Trung-Dung.jpg</image>
@@ -537,7 +537,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>Quan Lê</singer>
                     <title>Xuân Này Con Không Về</title>
                     <image>../images/Xuan-Nay-Con-Khong-Ve-Quang-Le.jpg</image>
@@ -546,7 +546,7 @@
                     <description>An in-depth look at creating applications with XML.</description>
                 </audio>
 
-                <audio name"blue-jazz">
+                <audio name="blue-jazz">
                     <singer>Quan Lê, Lệ Quyên</singer>
                     <title>Sầu Tím Thiệp Hồng</title>
                     <image>../images/Sau-Tim-Thiep-Hong-Quang-Le-Le-Quyen.jpg</image>

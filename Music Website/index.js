@@ -45,14 +45,10 @@ var docname = "music1.xml";
 
 let songs = [];
 var list_tru_tinh = [];
-<<<<<<< HEAD
 var list_rock = [];
-var list_cach_mang = [];
-=======
 var list_cach_mang = [];
 var list_thieu_nhi = [];
 var list_us_uk = [];
->>>>>>> 5acc635b085cc155f3710657fd113b6f32e2dbc8
 
 function loadXML() {
     try {
@@ -117,7 +113,6 @@ function showFeed() {
             })
         }
     }
-<<<<<<< HEAD
     var cach_mang_node = xmlDoc.querySelectorAll("audio[name='cach_mang']");
 
     for (i = 0; i < cach_mang_node.length; i++) {
@@ -135,8 +130,6 @@ function showFeed() {
             })
         }
     }
-=======
-    //----------------------------------------------------------
 
 
     //----------------------------------------------------------
@@ -160,16 +153,12 @@ function showFeed() {
     }
     //----------------------------------------------------------
 
->>>>>>> 5acc635b085cc155f3710657fd113b6f32e2dbc8
 }
 
 console.log(songs);
 console.log(list_tru_tinh);
-<<<<<<< HEAD
 console.log(list_cach_mang);
-=======
 console.log(list_us_uk);
->>>>>>> 5acc635b085cc155f3710657fd113b6f32e2dbc8
 loadXML();
 
 function loadTrack(index) {
