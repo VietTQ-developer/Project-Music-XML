@@ -15,11 +15,56 @@
 
 <body>
     <div class="uploaddisplay">
-        <div class="buttoneupdate">
-            <button type="submit"> check</button>
+        <div id="customsselects" class="customsselects">
+            <div class="s1">
+                <form action="#" method="post" class="choosetype" id="choosetype">
+                    <h2 class="theloaiupdate">Chọn Thể Loại mà bạn muốn upload</h2>
+                    <div class="select">
+                        <input type="checkbox" id="toggle" class="toggle"> <label for="toggle">Thể Loại</label>
+                        <ul>
+                            <li class="select-option"><input type="radio" name="choice" id="c1" value="Trữ Tình"><label for="cc1" onclick=u ploadfile1()>Trữ Tình</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c2" value="Cách Mạng"><label for="cc2" onclick=u ploadfile2()>Cách Mạng</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c3" value="Thiếu Nhi"><label for="cc3" onclick=u ploadfile3()>Thiếu Nhi</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c4" value="US-UK"><label for="cc4" onclick=u ploadfile4()>US-UK</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c5" value="Bolero"><label for="cc5" onclick=u ploadfile5()>Bolero</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c6" value="Blue/Jazz"><label for="cc6" onclick=u ploadfile6()>Blue/Jazz</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c7" value="Rock"><label for="cc7" onclick=u ploadfile7()>Rock</label></li>
+                        </ul>
+                    </div>
+
+                    <div class="uploadbutton">
+                        <label for="file-upload" class="custom-file-upload"><i class="fa fa-cloud-upload"></i> Choose file Upload</label>
+                        <input id="file-upload" type="file" />
+                    </div>
+                    <div class="inputinfosong">
+                        <input type="text" placeholder="Name of song">
+                        <input type="text" placeholder="Name of Singer">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
+
+
     </div>
-    <script src="./index.js"></script>
+
 </body>
+<script src="./index.js"></script>
+<script>
+    $(document).ready(function() {
+
+        $(".select li").click(function() {
+            $(".select").css("display", "none");
+            $(".uploadbutton").css("display", "block");
+            $(".theloaiupdate").html("Select File Upload")
+        });
+        $(".uploadbutton").change(function() {
+            $(".select").css("display", "none");
+            $(".uploadbutton").css("display", "none");
+            $(".inputinfosong").css("display", "block");
+            $(".theloaiupdate").html("Insert Information For File")
+        });
+    });
+</script>
 
 </html>
