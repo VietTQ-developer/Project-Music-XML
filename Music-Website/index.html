@@ -25,12 +25,20 @@
                 <a href="#" class="menu-active">
                     <i class="fas fa-home"></i> Home
                 </a>
-                <a href="#">
-                    <i class="fas fa-search"></i> Search
-                </a>
                 <a href="#" class="upmusic">
                     <i class="fa fa-cloud-upload"></i>Upload
                 </a>
+                <a onclick="slide()" href="#">
+                    <i class="fas fa-search"></i> Search
+                </a>
+                <div id="search" class="hide">
+                    <div class="ContainerSearch">
+                        <input type="text" name="" id="txtbaihat" placeholder="Bài Hát" />
+                        <input type="text" name="" id="txtcasi" placeholder="Ca Sĩ" />
+                        <button onclick="Search()">Tìm</button>
+                    </div>
+                </div>
+
             </div>
             <div class="library">
                 <p>Library</p>
