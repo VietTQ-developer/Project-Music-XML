@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zing mp3 clone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="slidebar">
+            <div class="logo">
+                <i class="logo-icon fab fa-soundcloud"></i>
+                <span class="logo-text">Zingmp3 clone</span>
+            </div>
+            <div class="menu">
+                <p>Menu</p>
+                <a href="#" class="menu-active">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="#">
+                    <i class="fas fa-compass"></i> Discover
+                </a>
+                <a href="#">
+                    <i class="fas fa-heart"></i> Favorite
+                </a>
+                <a href="#">
+                    <i class="fas fa-search"></i> Search
+                </a>
+            </div>
+            <div class="library">
+                <p>Library</p>
+                <a href="#">
+                    <i class="fas fa-compact-disc"></i> Singles
+                </a>
+                <a href="#">
+                    <i class="fas fa-compact-disc"></i> Albums
+                </a>
+                <a href="#">
+                    <i class="fas fa-music"></i> Artist
+                </a>
+            </div>
+            <div class="my-playlist">
+                <p>My Playlist</p>
+                <a href="#">
+                    <i class="fas fa-bookmark"></i> English Song
+                </a>
+                <a href="#">
+                    <i class="fas fa-bookmark"></i> Hindi Plays
+                </a>
+                <a href="#">
+                    <i class="fas fa-bookmark"></i> Bangia Songs
+                </a>
+            </div>
+        </div>
+        <div class="content" id="chartContainer">
+
+            <input id="fileupload" type="file" name="fileupload" />
+            <button id="upload-button" onclick="uploadFile()"> Upload </button>
+        </div>
+
+        <script>
+            async function uploadFile() {
+                let formData = new FormData();
+                formData.append("file", fileupload.files[0]);
+                await fetch('upload.php', {
+                    method: "POST",
+                    body: formData
+                });
+                alert('The file has been uploaded successfully.');
+            }
+        </script>
+</body>
+
+</html>

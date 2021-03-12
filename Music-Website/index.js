@@ -1,25 +1,8 @@
-<<<<<<< HEAD
-// Click Search Bar
-var searchbar = document.querySelector("#search");
-var songtext = document.querySelector("#txtbaihat");
-var singertext = document.querySelector("#txtcasi");
-function slide(){
-    
-    if(searchbar.classList.contains("hide")){
-        searchbar.classList.remove("hide");
-        songtext.value =('');
-         singertext.value =('');
-    }else{
-         searchbar.classList.add("hide");
-    }
-}
-=======
 $(document).ready(function() {
     $(".Charlie-Yue-info").click(function() {
         $(".content").load("info.html");
     });
 });
->>>>>>> 0036c970f81db5b2dc9d6b4ea783b9f7f58ccf72
 const previous = document.querySelector('#previous');
 const play = document.querySelector('#play');
 const next = document.querySelector('#next');
@@ -78,7 +61,6 @@ var list_thieu_nhi = [];
 var list_us_uk = [];
 var list_bolero = [];
 var list_blue_jazz = [];
-var list_search=[];
 
 function loadXML() {
     try {
@@ -259,7 +241,6 @@ function showFeed() {
             })
         }
     }
-    
 }
 
 console.log(songs);
@@ -357,22 +338,16 @@ function loadListSong(prefixID, array) {
 
     count = 0;
 
-    if(array.length>0){
-        for (let i = 0; i < array.length; i++) {
-            count = count.toString().trim();
-            var s = '<div class="song"><img class="song-img" src="' + array[i].image +
-                '"><div class="song-title"><span class="title">' + array[i].name + '</span><span>' + array[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + addNewID(prefixID, i) + '"><i class="far fa-play-circle"></i></a></div>';
-    
-            count = Number(count);
-            top_song.insertAdjacentHTML('beforeend', s);
-    
-        }
-    }
-    else{
-        var s = '<div class="song"><img class="song-img" src="./images/502-error.png"/><div class="song-title"><span class="title">Không Tìm Thấy Kết Quả Tương Ứng!</span></div>';
+    console.log(list_tru_tinh.length)
+    for (let i = 0; i < array.length; i++) {
+        count = count.toString().trim();
+        var s = '<div class="song"><img class="song-img" src="' + array[i].image +
+            '"><div class="song-title"><span class="title">' + array[i].name + '</span><span>' + array[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + addNewID(prefixID, i) + '"><i class="far fa-play-circle"></i></a></div>';
+
+        count = Number(count);
         top_song.insertAdjacentHTML('beforeend', s);
+
     }
-   
 }
 
 function checkClicked() {
@@ -446,8 +421,6 @@ function getSongToPlay(clicked_id) {
 
 }
 
-
-
 function addNewID(prefixID, number) {
     var s = prefixID + number;
     return s;
@@ -483,33 +456,4 @@ function range_slider() {
             playSong();
         }
     }
-}
-
-function Search() {
-    songtxt = $('#txtbaihat').val();
-    singertxt = $('#txtcasi').val();
-    list_search =[];
-    for(let i=0;i<songs.length;i++){
-        if(songs[i].name.toLowerCase().includes(songtxt.toLowerCase()) && songs[i].singer.toLowerCase().includes(singertxt.toLowerCase()) ){
-            list_search.push({
-                name: songs[i].name,
-                path: songs[i].path,
-                image: songs[i].image,
-                singer: songs[i].singer,
-    
-            })
-        }
-    }
-    console.log(list_search);
-    if(list_search.length >0){
-        removeElement();
-        document.querySelector('#banner-top-song').innerHTML = "Kết Quả Tìm Kiếm";
-        loadListSong("tt", list_search);
-    }else{
-        removeElement();
-        document.querySelector('#banner-top-song').innerHTML = "Kết Quả Tìm Kiếm";
-        loadListSong("tt", list_search);
-    }
-
-
 }

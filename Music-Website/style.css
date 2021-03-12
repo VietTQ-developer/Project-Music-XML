@@ -776,55 +776,6 @@ input[type="range"]::-webkit-slider-thumb {
     }
 }
 
-<<<<<<< HEAD
-/* search */
-#search input {
-    outline: none;
-    padding: 0;
-    color: white;
-    border: none;
-    border-bottom: 2px solid white;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 40px;
-    text-indent: 10px;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
-    width: 70%;
-    transition: .4s;
-    background-color: transparent;
-   }
-   .ContainerSearch{
-    width: 230px;
-    position: absolute;
-}
-
-#search{
-    transition: .4s;
-    height: 100%;
-    width: 100%;
-}
-.hide{
-     opacity: 0;
-     z-index: 0;
-     position: relative;
- }
- #search button:hover{
-    color: #212121;
-    background-color: #fafafa;
-}
-#search button{
-    width: 25%;
-    margin-top: 2px;
-    outline: none;
-    text-align: center;
-    padding: 10px;
-    border: 1.5px solid #fafafa;
-    background-color: transparent;
-    color: #fafafa;
-    transition: .4s;
-    border-radius: 5px;
-=======
 
 /* css slideshow auto */
 
@@ -867,5 +818,4 @@ input[type="range"]::-webkit-slider-thumb {
     to {
         opacity: 1
     }
->>>>>>> 0036c970f81db5b2dc9d6b4ea783b9f7f58ccf72
 }
