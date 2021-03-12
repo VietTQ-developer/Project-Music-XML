@@ -10,6 +10,7 @@
                 <path>./songs/Can-Nha-Mau-Tim-Quang-Le-Mai-Thien-Van.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>112</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Quang Lê</singer>
@@ -18,6 +19,7 @@
                 <path>./songs/Dap-Vo-Cay-Dan-Quang-Le.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>132</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Quang Lê</singer>
@@ -26,6 +28,7 @@
                 <path>./songs/Sau-Tim-Thiep-Hong-Quang-Le-Le-Quyen.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>89</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Quang Lê</singer>
@@ -34,6 +37,7 @@
                 <path>./songs/Xuan-Nay-Con-Khong-Ve-Quang-Le.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>190</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Doãn Tần,Thanh Vinh</singer>
@@ -42,6 +46,7 @@
                 <path>./songs/Nhac_Cach_Mang/Vi-Nhan-Dan-Quen-Minh.mp3</path>
                 <publish_date>1951-05-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>100</view>
             </audio>
             <audio name="tru_tinh">
                 <singer>Ái Xuân</singer>
@@ -50,6 +55,7 @@
                 <path>./songs/Nhac_Cach_Mang/Xuan-Chien-Khu.mp3</path>
                 <publish_date>1963</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>50</view>
             </audio>
         </audios>
     </category>
@@ -63,6 +69,7 @@
                 <path>./songs/Nhac_Cach_Mang/Vi-Nhan-Dan-Quen-Minh.mp3</path>
                 <publish_date>1951-05-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>600</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Ái Xuân</singer>
@@ -71,6 +78,7 @@
                 <path>./songs/Nhac_Cach_Mang/Xuan-Chien-Khu.mp3</path>
                 <publish_date>1963</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>580</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Trung Đức</singer>
@@ -79,6 +87,7 @@
                 <path>./songs/Nhac_Cach_Mang/Chiec-Gay-Truong-Son.mp3</path>
                 <publish_date>1967</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>420</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Tường Vy</singer>
@@ -87,6 +96,7 @@
                 <path>./songs/Nhac_Cach_Mang/Co-Gai-Vot-Chong.mp3</path>
                 <publish_date>1965</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>350</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Vũ Dậu</singer>
@@ -95,6 +105,7 @@
                 <path>./songs/Nhac_Cach_Mang/Hanh-Khuc-Ngay-Va-Dem.mp3</path>
                 <publish_date>1972</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>250</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Tuyết Thanh,Thúy Loan</singer>
@@ -103,6 +114,7 @@
                 <path>./songs/Nhac_Cach_Mang/Duong-Toi-Di-Dai-Theo-Dat-Nuoc.mp3</path>
                 <publish_date>1965</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>150</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Hợp xướng Đài TNVN</singer>
@@ -111,6 +123,7 @@
                 <path>./songs/Nhac_Cach_Mang/Qua-Mien-Tay-Bac.mp3</path>
                 <publish_date>1952</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>50</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Tốp Ca</singer>
@@ -119,6 +132,7 @@
                 <path>./songs/Nhac_Cach_Mang/Hat-Mai-Khuc-Quan-Hanh.mp3</path>
                 <publish_date>1979</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>42</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Tốp Ca</singer>
@@ -127,6 +141,7 @@
                 <path>./songs/Nhac_Cach_Mang/Chien-Thang-Dien-Bien.mp3</path>
                 <publish_date>1954</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>117</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Quang Thọ,Hợp Xướng</singer>
@@ -134,6 +149,7 @@
                 <image>./images/Nguoi-La-Niem-Tin-Tat-Thang.jpg</image>
                 <path>./songs/Nhac_Cach_Mang/Nguoi-La-Niem-Tin-Tat-Thang.mp3</path>
                 <publish_date>1969</publish_date>
+                <view>213</view>
             </audio>
         </audios>
     </category>
@@ -232,6 +248,7 @@
                 <path>./songs/US-UK/3435-ArianaGrande-6948001.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>534</view>
             </audio>
             <audio name="us_uk">
                 <singer>Olive Rodrigo</singer>
@@ -240,6 +257,7 @@
                 <path>./songs/US-UK/DriverLicense-OliviaRodrigo-6916171.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>456</view>
             </audio>
             <audio name="us_uk">
                 <singer>Zayn Sia</singer>
@@ -248,6 +266,7 @@
                 <path>./songs/US-UK/DuskTillDawn-ZaynSia-5164057.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>123</view>
             </audio>
             <audio name="us_uk">
                 <singer>Selena Gomez ft. BLACKPINK</singer>
@@ -256,6 +275,7 @@
                 <path>./songs/US-UK/IceCreamWithSelenaGomez-BLACKPINK-6720101.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>111</view>
             </audio>
             <audio name="us_uk">
                 <singer>Charlie Puth</singer>
@@ -264,6 +284,7 @@
                 <path>./songs/US-UK/IsItJustMe-SashaSloanCharliePuth-6832041.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>789</view>
             </audio>
             <audio name="us_uk">
                 <singer>Justin Bieber ft.Benny Blanco</singer>
@@ -272,6 +293,7 @@
                 <path>./songs/US-UK/Lonely-JustinBieberBennyBlanco-6735761.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>678</view>
             </audio>
             <audio name="us_uk">
                 <singer>Ariana Grande</singer>
@@ -280,6 +302,7 @@
                 <path>./songs/US-UK/Positions-ArianaGrande-6948011.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>1111</view>
             </audio>
             <audio name="us_uk">
                 <singer>Shawn Mendes ft. Camila Cabello</singer>
@@ -288,6 +311,7 @@
                 <path>./songs/US-UK/Seorita-ShawnMendesCamilaCabello-6007813.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>1151</view>
             </audio>
             <audio name="us_uk">
                 <singer>The ChainSmokers Coldplay</singer>
@@ -296,6 +320,7 @@
                 <path>./songs/US-UK/SomethingJustLikeThis-TheChainsmokersColdplay-5337136.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>2222</view>
             </audio>
             <audio name="us_uk">
                 <singer>Taylor Swift</singer>
@@ -304,6 +329,7 @@
                 <path>./songs/US-UK/Willow-TaylorSwift-6916338.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>111</view>
             </audio>
         </audios>
     </category>
@@ -320,6 +346,7 @@
                     <path>./songs/Quang-bolero/Can-Nha-Mau-Tim-Quang-Le-Mai-Thien-Van.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>829</view>
                 </audio>
 
                 <audio name="bolero">
@@ -329,6 +356,7 @@
                     <path>./songs/Quang-bolero/Chieu-San-Ga-Giang-Tien.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>9</view>
                 </audio>
 
                 <audio name="bolero">
@@ -338,6 +366,7 @@
                     <path>./songs/Quang-bolero/Con-Duong-Xua-Em-Di-Luu-Anh-Loan-Le-Sang.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>8</view>
                 </audio>
 
                 <audio name="bolero">
@@ -347,6 +376,7 @@
                     <path>./songs/Quang-bolero/Dap-Mo-Cuoc-Tinh-Le-Sang.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>189</view>
                 </audio>
 
                 <audio name="bolero">
@@ -356,6 +386,7 @@
                     <path>./songs/Quang-bolero/Dap-Vo-Cay-Dan-Quang-Le.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>12</view>
                 </audio>
 
                 <audio name="bolero">
@@ -365,6 +396,7 @@
                     <path>./songs/Quang-bolero/Dem-Buon-Tinh-Le-Truong-Vu.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>829</view>
                 </audio>
 
                 <audio name="bolero">
@@ -374,6 +406,7 @@
                     <path>./songs/Quang-bolero/Duong-Tim-Bang-Lang-Ngoc-Thao-Cao-Hoang-Nghi.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>332</view>
                 </audio>
 
                 <audio name="bolero">
@@ -383,6 +416,7 @@
                     <path>./songs/Quang-bolero/Duong-Tinh-Doi-Nga-Giang-Tien-Duong-Ngoc-Thai.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>123</view>
                 </audio>
 
                 <audio name="bolero">
@@ -392,6 +426,7 @@
                     <path>./songs/Quang-bolero/Duong-Tran-La-Do-Tiet-Duy-Hoa.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>90</view>
                 </audio>
 
                 <audio name="bolero">
@@ -401,6 +436,7 @@
                     <path>./songs/Quang-bolero/Duyen-Phan-Nhu-Quynh.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>51</view>
                 </audio>
 
                 <audio name="bolero">
@@ -410,6 +446,7 @@
                     <path>./songs/Quang-bolero/Khoc-Tham-Manh-Quynh.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>223</view>
                 </audio>
 
                 <audio name="bolero">
@@ -419,6 +456,7 @@
                     <path>./songs/Quang-bolero/Kiep-Cam-Ca-Le-Quyen.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>173</view>
                 </audio>
 
                 <audio name="bolero">
@@ -428,6 +466,7 @@
                     <path>./songs/Quang-bolero/Lau-Dai-Tinh-Ai-Cam-Ly-Quoc-Dai.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>891</view>
                 </audio>
 
                 <audio name="bolero">
@@ -437,6 +476,7 @@
                     <path>./songs/Quang-bolero/Vung-La-Me-Bay-Nhu-Quynh.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>229</view>
                 </audio>
 
                 <audio name="bolero">
@@ -446,6 +486,7 @@
                     <path>./songs/Quang-bolero/Xuan-Nay-Con-Ve-Me-O-Dau-Khuu-Huy-Vu.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>63</view>
                 </audio>
 
                 <audio name="bolero">
@@ -455,6 +496,7 @@
                     <path>./songs/Quang-bolero/Yeu-Lam-Mai-Thien-Van.mp3</path>
                     <publish_date>2010-12-04</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>801</view>
                 </audio>
             </audios>
 
@@ -472,6 +514,7 @@
                     <path>./songs/Quang-jazz/Autumn-In-New-York-Ella-Fitzgerald.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>119</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -481,6 +524,7 @@
                     <path>./songs/Quang-jazz/Evening-Star-Nah-Youn-Sun.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>412</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -490,6 +534,7 @@
                     <path>./songs/Quang-jazz/Nancy-With-The-Laughing-Face-Sept-18-1962-Ballads-John-Coltrane.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>232</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -499,6 +544,7 @@
                     <path>./songs/Quang-jazz/Pho-Ngheo-Tran-Thu-Ha.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>99</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -508,6 +554,7 @@
                     <path>./songs/Quang-jazz/Suoi-Va-Co-Nguyen-Thao.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>142</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -517,6 +564,7 @@
                     <path>./songs/Quang-jazz/Tinh-Lang-Phi-Van-Mai-Huong.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>521</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -526,6 +574,7 @@
                     <path>./songs/Quang-jazz/What-Now-My-Love-Carin-Lundin.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>89</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -535,6 +584,7 @@
                     <path>./songs/Quang-jazz/Xich-Lo-Ho-Trung-Dung.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>319</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -544,6 +594,7 @@
                     <path>./songs/Quang-jazz/Xuan-Nay-Con-Khong-Ve-Quang-Le.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>528</view>
                 </audio>
 
                 <audio name="blue-jazz">
@@ -553,6 +604,7 @@
                     <path>./songs/Quang-jazz/Sau-Tim-Thiep-Hong-Quang-Le-Le-Quyen.mp3</path>
                     <publish_date>1990-05-09</publish_date>
                     <description>An in-depth look at creating applications with XML.</description>
+                    <view>102</view>
                 </audio>
             </audios>
         </category>
@@ -568,6 +620,7 @@
                 <path>./songs/Rock/Rock-Sai-Gon.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>1121</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -576,6 +629,7 @@
                 <path>./songs/Rock/Bong-Hong-Thuy-Tinh.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>2111</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -584,6 +638,7 @@
                 <path>./songs/Rock/Dat-Viet.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>1191</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -592,6 +647,7 @@
                 <path>./songs/Rock/Duong-Den-Vinh-Quang.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>1411</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -600,6 +656,7 @@
                 <path>./songs/Rock/Hoa-Ban-Trang.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>1221</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -608,6 +665,7 @@
                 <path>./songs/Rock/Nguoi-Dan-Ba-Hoa-Da.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>1110</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -616,6 +674,7 @@
                 <path>./songs/Rock/Nhung-Chuyen-Di-Dai.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>1000</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -624,6 +683,7 @@
                 <path>./songs/Rock/Niem-Tin-Cho-Cat-Bui.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>34</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -632,6 +692,7 @@
                 <path>./songs/Rock/Noi-Vong-Tay-Lon.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                 <view>55</view>
             </audio>
             <audio name="rock">
                 <singer>Bức Tường</singer>
@@ -640,6 +701,7 @@
                 <path>./songs/Rock/Rung-Chuong-Vang.mp3</path>
                 <publish_date>2000-10-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>111</view>
             </audio>
             </audios>
     </category>
