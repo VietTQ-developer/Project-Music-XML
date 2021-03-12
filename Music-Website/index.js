@@ -2,6 +2,13 @@ $(document).ready(function() {
     $(".Charlie-Yue-info").click(function() {
         $(".content").load("info.html");
     });
+    $(".upmusic").click(function() {
+        $(".content").load("uploadfile-v1.html");
+    });
+    $(".buttoneupdate").click(function() {
+
+        alert("sadasds")
+    });
 });
 const previous = document.querySelector('#previous');
 const play = document.querySelector('#play');

@@ -158,7 +158,7 @@ body {
     display: flex;
     justify-content: space-between;
     /* background-color: #2e5172; */
-    background-image: url('./images/song4.jpg');
+    background-image: url('./images/avatar.jpg');
     padding: 1%;
     border-radius: 15px;
     width: 88%;
@@ -168,8 +168,8 @@ body {
     position: absolute;
     justify-content: space-between;
     /* background-color: rgb(90, 0, 90); */
-    background-color: #1a3855;
-    opacity: 0.8;
+    background-color: #12304b;
+    opacity: 0.9;
     padding: 1%;
     border-radius: 15px;
     margin: 1.5% 0% 0% 4.3%;
@@ -818,4 +818,17 @@ input[type="range"]::-webkit-slider-thumb {
     to {
         opacity: 1
     }
+}
+
+.uploaddisplay {
+    background-image: url('./images/uploadfile.PNG');
+    width: 60%;
+    height: 50vh;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.uploaddisplay img {
+    border-radius: 20px;
 }
