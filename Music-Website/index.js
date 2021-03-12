@@ -12,7 +12,6 @@ function slide(){
          searchbar.classList.add("hide");
     }
 }
-
 $(document).ready(function() {
     $(".Charlie-Yue-info").click(function() {
         $(".content").load("info.html");
@@ -351,18 +350,21 @@ function justPlay() {
 
 function loadListSong(prefixID, array) {
     const top_song = document.querySelector('#top_song');
-
     count = 0;
-
-    console.log(list_tru_tinh.length)
-    for (let i = 0; i < array.length; i++) {
-        count = count.toString().trim();
-        var s = '<div class="song"><img class="song-img" src="' + array[i].image +
-            '"><div class="song-title"><span class="title">' + array[i].name + '</span><span>' + array[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + addNewID(prefixID, i) + '"><i class="far fa-play-circle"></i></a></div>';
-
-        count = Number(count);
+    if(array.length>0){
+        for (let i = 0; i < array.length; i++) {
+            count = count.toString().trim();
+            var s = '<div class="song"><img class="song-img" src="' + array[i].image +
+                '"><div class="song-title"><span class="title">' + array[i].name + '</span><span>' + array[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + addNewID(prefixID, i) + '"><i class="far fa-play-circle"></i></a></div>';
+    
+            count = Number(count);
+            top_song.insertAdjacentHTML('beforeend', s);
+    
+        }
+    }
+    else{
+        var s = '<div class="song"><img class="song-img" src="./images/502-error.png"/><div class="song-title"><span class="title">Không Tìm Thấy Kết Quả Tương Ứng!</span></div>';
         top_song.insertAdjacentHTML('beforeend', s);
-
     }
 }
 
