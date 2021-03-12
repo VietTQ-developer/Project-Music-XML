@@ -1,3 +1,18 @@
+// Click Search Bar
+var searchbar = document.querySelector("#search");
+var songtext = document.querySelector("#txtbaihat");
+var singertext = document.querySelector("#txtcasi");
+function slide(){
+    
+    if(searchbar.classList.contains("hide")){
+        searchbar.classList.remove("hide");
+        songtext.value =('');
+         singertext.value =('');
+    }else{
+         searchbar.classList.add("hide");
+    }
+}
+
 $(document).ready(function() {
     $(".Charlie-Yue-info").click(function() {
         $(".content").load("info.html");
@@ -61,6 +76,7 @@ var list_thieu_nhi = [];
 var list_us_uk = [];
 var list_bolero = [];
 var list_blue_jazz = [];
+var list_search=[];
 
 function loadXML() {
     try {
@@ -456,4 +472,32 @@ function range_slider() {
             playSong();
         }
     }
+}
+function Search() {
+    songtxt = $('#txtbaihat').val();
+    singertxt = $('#txtcasi').val();
+    list_search =[];
+    for(let i=0;i<songs.length;i++){
+        if(songs[i].name.toLowerCase().includes(songtxt.toLowerCase()) && songs[i].singer.toLowerCase().includes(singertxt.toLowerCase()) ){
+            list_search.push({
+                name: songs[i].name,
+                path: songs[i].path,
+                image: songs[i].image,
+                singer: songs[i].singer,
+    
+            })
+        }
+    }
+    console.log(list_search);
+    if(list_search.length >0){
+        removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Kết Quả Tìm Kiếm";
+        loadListSong("tt", list_search);
+    }else{
+        removeElement();
+        document.querySelector('#banner-top-song').innerHTML = "Kết Quả Tìm Kiếm";
+        loadListSong("tt", list_search);
+    }
+
+
 }
