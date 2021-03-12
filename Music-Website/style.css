@@ -37,7 +37,6 @@ body {
 .logo-icon {
     color: #FFFFFF;
     font-size: 2em;
-    margin-right: 10px;
 }
 
 .logo-text {
@@ -115,6 +114,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bottom-content {
@@ -140,15 +141,53 @@ body {
     background: linear-gradient(to bottom, #303030, #151515);
 }
 
+.backgroundinfo,
+.trending,
+.trending2,
+.trending3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left,
+.avatar {
+    z-index: 2;
+}
+
+.backgroundinfo {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #2e5172; */
+    background-image: url('./images/song4.jpg');
+    padding: 1%;
+    border-radius: 15px;
+    width: 88%;
+}
+
+.membraneshadow {
+    position: absolute;
+    justify-content: space-between;
+    /* background-color: rgb(90, 0, 90); */
+    background-color: #1a3855;
+    opacity: 0.8;
+    padding: 1%;
+    border-radius: 15px;
+    margin: 1.5% 0% 0% 4.3%;
+    height: 27.8vh;
+    width: 75.9%;
+    z-index: 1;
+}
+
 .trending {
     display: flex;
     justify-content: space-between;
     background-image: url('./images/layout.jpg');
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    padding: 1%;
     border-radius: 15px;
 }
 
+.backgroundinfo .left,
 .trending .left {
     display: flex;
     justify-content: center;
@@ -157,12 +196,27 @@ body {
     padding: 0 20px;
 }
 
+.backgroundinfo .left .title,
 .trending .left .title {
     color: #FFFFFF;
     font-size: 3em;
     font-weight: 1000;
 }
 
+.backgroundinfo .left .view {
+    font-weight: bold;
+    color: white;
+}
+
+.backgroundinfo .left .aboutsinger {
+    font-weight: 700;
+    color: rgb(216, 216, 216);
+    width: 60%;
+}
+
+.backgroundinfo .left .artist,
+.backgroundinfo .left .view,
+.backgroundinfo .left .type,
 .trending .left .artist,
 .trending .left .view,
 .trending .left .type {
@@ -171,12 +225,98 @@ body {
     font-weight: 1000;
 }
 
+.backgroundinfo .left .artist {
+    font-size: 2em;
+}
+
+.backgroundinfo .left .type,
 .trending .left .artist,
 .trending .left .type {
     font-size: 1.5em;
 }
 
+.backgroundinfo .left .type,
 .trending .left .type {
+    margin-bottom: 50px;
+}
+
+.trending2 {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./images/Bo-La-Tat-Ca.jpg');
+    width: 100%;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.trending2 .left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.trending2 .left .title {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: 1000;
+}
+
+.trending2 .left .artist,
+.trending2 .left .view,
+.trending2 .left .type {
+    color: #D7D7D7;
+    font-size: 1em;
+    font-weight: 1000;
+}
+
+.trending2 .left .artist,
+.trending2 .left .type {
+    font-size: 1.5em;
+}
+
+.trending2 .left .type {
+    margin-bottom: 50px;
+}
+
+.trending3 {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./images/Duong-Den-Ngay-Vinh-Quang.jpg');
+    width: 100%;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.trending3 .left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.trending3 .left .title {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: 1000;
+}
+
+.trending3 .left .artist,
+.trending3 .left .view,
+.trending3 .left .type {
+    color: #D7D7D7;
+    font-size: 1em;
+    font-weight: 1000;
+}
+
+.trending3 .left .artist,
+.trending3 .left .type {
+    font-size: 1.5em;
+}
+
+.trending3 .left .type {
     margin-bottom: 50px;
 }
 
@@ -196,7 +336,9 @@ body {
     transition: ease-in-out .5s;
 }
 
-.trending .right {
+.trending .right,
+.trending2 .right,
+.trending3 .right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,12 +346,20 @@ body {
     background: linear-gradient(to right, #14314D, #151515);
     border-radius: 10px;
     padding: 5px 10px;
-    margin: 20px 20px 0 0;
     color: #FFFFFF;
     cursor: pointer;
 }
 
-.trending .right img {
+.avatar img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.trending .right img,
+.trending2 .right img,
+.trending3 .right img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -226,7 +376,6 @@ body {
 .left-side-top {
     border-radius: 15px;
     background: linear-gradient(to bottom, #303030, #151515);
-    height: 50%;
 }
 
 .left-side-bottom {
@@ -284,8 +433,8 @@ body {
 }
 
 .top-albums img {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 20px;
     animation: hide 1s ease-in-out;
     transition: ease-in-out 1s;
@@ -298,8 +447,12 @@ body {
     transform: scale(1.1) translateY(-10%);
 }
 
+.card-albums {
+    margin-top: 2%;
+}
+
 .card-albums p {
-    margin-top: 10px;
+    margin: 10% 0 10% 0;
     text-align: center;
     color: #FFFFFF;
     font-size: 1.1em;
@@ -376,33 +529,62 @@ body {
     background: #0089BA;
 }
 
+.all-song {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin: 3% 0% 2% 4%;
+}
+
+.list-song-singer:hover,
+.song:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.list-song-singer {
+    display: flex;
+    border-bottom: 1px rgb(88, 88, 88) solid;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    width: 90%;
+    margin-left: 4%;
+    padding: 10px;
+}
+
 .song {
     display: flex;
     justify-content: start;
     align-items: stretch;
-    margin-bottom: 15px;
-    padding: 0 20px;
+    margin: 1% auto 1% auto;
+    width: 95%;
+    border-radius: 10px;
+    padding: 2% 0% 2% 2%;
+    transition: background-color 0.5s;
 }
 
+.list-song-singer:nth-child(1),
 .song:nth-child(1) {
     animation: to-right 1s ease-in-out;
 }
 
+.list-song-singer:nth-child(2),
 .song:nth-child(2) {
     animation: to-right 1.2s ease-in-out;
 }
 
+.list-song-singer:nth-child(3),
 .song:nth-child(3) {
     animation: to-right 1.4s ease-in-out;
 }
 
+.list-song-singer:nth-child(4),
 .song:nth-child(4) {
     animation: to-right 1.6s ease-in-out;
 }
 
 .song-img {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     margin-right: 15px;
     border-radius: 10px;
 }
@@ -424,8 +606,9 @@ body {
 
 .song-time {
     width: 30%;
+    margin-top: 2%;
     color: #D7D7D7;
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .left-side-bottom .right p {
@@ -438,6 +621,7 @@ body {
 .btn-song-play i {
     color: #FFFFFF;
     font-size: 2em;
+    margin-top: 15%;
 }
 
 .btn-song-play i:hover {
@@ -589,5 +773,49 @@ input[type="range"]::-webkit-slider-thumb {
     100% {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+
+/* css slideshow auto */
+
+.mySlides {
+    display: none;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.slideshow-container {
+    width: 88%;
+    margin-left: -2%;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
     }
 }

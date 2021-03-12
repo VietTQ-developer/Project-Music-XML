@@ -8,6 +8,7 @@
     <title>Zing mp3 clone</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 
 </head>
@@ -60,26 +61,69 @@
             </div>
         </div>
         <div class="content">
+
             <div class="top-content">
-                <div class="trending">
-                    <div class="left">
-                        <p class="type">Trending</p>
-                        <p class="title">Eleven</p>
-                        <p class="artist">Khalid ft. Summer</p>
-                        <p class="view">7.3 Million listens</p>
-                        <a href="#" class="btn-play">Play Now</a>
+
+                <!-- slide auto code -->
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="trending">
+                            <div class="left">
+                                <p class="type">Trending</p>
+                                <p class="title">Eleven</p>
+                                <p class="artist">Khalid ft. Summer</p>
+                                <p class="view">7.3 Million listens</p>
+                                <a href="#" class="btn-play">Play Now</a>
+                            </div>
+                            <div class="right">
+                                <img src="./images/avatar.jpg" alt="" /> Rahman Nayan
+                            </div>
+                        </div>
                     </div>
-                    <div class="right">
-                        <img src="./images/avatar.jpg" alt="" /> Rahman Nayan
+
+                    <div class="mySlides fade">
+                        <div class="trending2">
+                            <div class="left">
+                                <p class="type">Trending</p>
+                                <p class="title">Eleven</p>
+                                <p class="artist">Khalid ft. Summer</p>
+                                <p class="view">7.3 Million listens</p>
+                                <a href="#" class="btn-play">Play Now</a>
+                            </div>
+                            <div class="right">
+                                <img src="./images/avatar.jpg" alt="" /> Rahman Nayan
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="trending3">
+                            <div class="left">
+                                <p class="type">Trending</p>
+                                <p class="title">Eleven</p>
+                                <p class="artist">Khalid ft. Summer</p>
+                                <p class="view">7.3 Million listens</p>
+                                <a href="#" class="btn-play">Play Now</a>
+                            </div>
+                            <div class="right">
+                                <img src="./images/avatar.jpg" alt="" /> Rahman Nayan
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- slide auto code -->
+
             </div>
+
+
             <div class="bottom-content">
                 <div class="playlist">
                     <div class="left-side">
                         <div class="left-side-top">
                             <div class="top-albums-title">
-                                <span>Top Albums</span>
+                                <span>Top Singer</span>
                                 <span>See all</span>
                             </div>
                             <div class="top-albums">
@@ -92,7 +136,7 @@
                                     <p>American Teen</p>
                                 </div>
                                 <div class="card-albums">
-                                    <img src="./images/top-album3.png" alt="" />
+                                    <img src="./images/top-album3.png" alt="" class="Charlie-Yue-info" />
                                     <p>Charlie Yue</p>
                                 </div>
                                 <div class="card-albums">
@@ -143,6 +187,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="right-side">
                         <p class="adp-card-title">Recently</p>
                         <div class="audio-player">
@@ -159,17 +204,12 @@
                             <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
                         </div>
                         <div class="adp-action">
-                            <a href="#" id="previous" onclick="previousSong()"><i class="fas fa-backward"></i
-                ></a>
-                            <a href="#" id="play" onclick="justPlay()"><i class="fas fa-play"></i
-                ></a>
-                            <!-- <a href="#" id="play" ><i class="fas fa-play"></i
-                ></a> -->
-                            <a href="#" id="next" onclick="nextSong()"><i class="fas fa-forward"></i
-                ></a>
+                            <a href="#" id="previous" onclick="previousSong()"><i class="fas fa-backward"></i></a>
+                            <a href="#" id="play" onclick="justPlay()"><i class="fas fa-play"></i></a>
+                            <!-- <a href="#" id="play" ><i class="fas fa-play"></i></a> -->
+                            <a href="#" id="next" onclick="nextSong()"><i class="fas fa-forward"></i></a>
                             <!-- <a href="#" id="next" >
-                  <i class="fas fa-forward"></i
-                ></a> -->
+                  <i class="fas fa-forward"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -177,6 +217,7 @@
         </div>
 
         <script src="./index.js"></script>
+        <script src="slide.js"></script>
 </body>
 
 </html>

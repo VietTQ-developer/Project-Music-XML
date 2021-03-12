@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    $(".Charlie-Yue-info").click(function() {
+        $(".content").load("info.html");
+    });
+});
 const previous = document.querySelector('#previous');
 const play = document.querySelector('#play');
 const next = document.querySelector('#next');
