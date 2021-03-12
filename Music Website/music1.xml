@@ -69,6 +69,7 @@
                 <path>./songs/Nhac_Cach_Mang/Vi-Nhan-Dan-Quen-Minh.mp3</path>
                 <publish_date>1951-05-01</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>600</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Ái Xuân</singer>
@@ -77,6 +78,7 @@
                 <path>./songs/Nhac_Cach_Mang/Xuan-Chien-Khu.mp3</path>
                 <publish_date>1963</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>580</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Trung Đức</singer>
@@ -85,6 +87,7 @@
                 <path>./songs/Nhac_Cach_Mang/Chiec-Gay-Truong-Son.mp3</path>
                 <publish_date>1967</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>420</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Tường Vy</singer>
@@ -93,6 +96,7 @@
                 <path>./songs/Nhac_Cach_Mang/Co-Gai-Vot-Chong.mp3</path>
                 <publish_date>1965</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>350</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Vũ Dậu</singer>
@@ -101,6 +105,7 @@
                 <path>./songs/Nhac_Cach_Mang/Hanh-Khuc-Ngay-Va-Dem.mp3</path>
                 <publish_date>1972</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>250</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Tuyết Thanh,Thúy Loan</singer>
@@ -109,6 +114,7 @@
                 <path>./songs/Nhac_Cach_Mang/Duong-Toi-Di-Dai-Theo-Dat-Nuoc.mp3</path>
                 <publish_date>1965</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>150</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Hợp xướng Đài TNVN</singer>
@@ -117,6 +123,7 @@
                 <path>./songs/Nhac_Cach_Mang/Qua-Mien-Tay-Bac.mp3</path>
                 <publish_date>1952</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>50</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Tốp Ca</singer>
@@ -125,6 +132,7 @@
                 <path>./songs/Nhac_Cach_Mang/Hat-Mai-Khuc-Quan-Hanh.mp3</path>
                 <publish_date>1979</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>42</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Tốp Ca</singer>
@@ -133,6 +141,7 @@
                 <path>./songs/Nhac_Cach_Mang/Chien-Thang-Dien-Bien.mp3</path>
                 <publish_date>1954</publish_date>
                 <description>An in-depth look at creating applications with XML.</description>
+                <view>117</view>
             </audio>
             <audio name="cach_mang">
                 <singer>Quang Thọ,Hợp Xướng</singer>
@@ -140,6 +149,7 @@
                 <image>./images/Nguoi-La-Niem-Tin-Tat-Thang.jpg</image>
                 <path>./songs/Nhac_Cach_Mang/Nguoi-La-Niem-Tin-Tat-Thang.mp3</path>
                 <publish_date>1969</publish_date>
+                <view>213</view>
             </audio>
         </audios>
     </category>
