@@ -2,20 +2,21 @@
 var searchbar = document.querySelector("#search");
 var songtext = document.querySelector("#txtbaihat");
 var singertext = document.querySelector("#txtcasi");
-function slide(){
-    
-    if(searchbar.classList.contains("hide")){
+
+function slide() {
+
+    if (searchbar.classList.contains("hide")) {
         searchbar.classList.remove("hide");
-        songtext.value =('');
-         singertext.value =('');
-    }else{
-         searchbar.classList.add("hide");
+        songtext.value = ('');
+        singertext.value = ('');
+    } else {
+        searchbar.classList.add("hide");
     }
 }
 $(document).ready(function() {
-    $(".Charlie-Yue-info").click(function() {
-        $(".content").load("info.html");
-    });
+    // $(".Charlie-Yue-info").click(function() {
+    //     $(".content").load("info.html");
+    // });
 });
 const previous = document.querySelector('#previous');
 const play = document.querySelector('#play');
@@ -63,11 +64,14 @@ let playingSong = false;
 var xmlDoc;
 var request;
 var docname = "music1.xml";
+var docname1 = "mysong.xml";
 
 let timer;
 let autoplay = 0;
 
 let songs = [];
+let mysongs = [];
+
 var list_tru_tinh = [];
 var list_rock = [];
 var list_cach_mang = [];
@@ -75,9 +79,9 @@ var list_thieu_nhi = [];
 var list_us_uk = [];
 var list_bolero = [];
 var list_blue_jazz = [];
-var list_search=[];
+var list_search = [];
 
-function loadXML() {
+function loadXML(docname) {
     try {
         //IE browser
         if (window.ActiveXObject) {
@@ -88,9 +92,34 @@ function loadXML() {
         }
         request.open("GET", docname, true); //make async
         request.send(null);
-        request.onreadystatechange = showFeed;
+        if (docname == "mysong.xml") {
+            request.onreadystatechange = showFeed1;
+        } else {
+            request.onreadystatechange = showFeed;
+        }
     } catch (exc) {
         alert("Error!" + exc.message);
+    }
+}
+
+function showFeed1() {
+    xmlDoc = request.responseXML.documentElement;
+
+    var titlelist = xmlDoc.getElementsByTagName("title");
+    console.log(titlelist)
+    var pathlist = xmlDoc.getElementsByTagName("path");
+    var imagelist = xmlDoc.getElementsByTagName("image");
+    var singerlist = xmlDoc.getElementsByTagName("singer");
+
+    for (i = 0; i < titlelist.length; i++) {
+
+        mysongs.push({
+            name: titlelist[i].firstChild.nodeValue,
+            path: pathlist[i].firstChild.nodeValue,
+            image: imagelist[i].firstChild.nodeValue,
+            singer: singerlist[i].firstChild.nodeValue,
+
+        });
     }
 }
 
@@ -259,6 +288,7 @@ function showFeed() {
 }
 
 console.log(songs);
+console.log(mysongs);
 console.log(list_tru_tinh);
 console.log(list_cach_mang);
 console.log(list_us_uk);
@@ -266,7 +296,8 @@ console.log(list_bolero)
 console.log(list_blue_jazz)
 console.log(list_rock);
 console.log(list_thieu_nhi);
-loadXML();
+
+loadXML(docname);
 
 function loadTrack(index) {
     clearInterval(timer);
@@ -351,18 +382,17 @@ function justPlay() {
 function loadListSong(prefixID, array) {
     const top_song = document.querySelector('#top_song');
     count = 0;
-    if(array.length>0){
+    if (array.length > 0) {
         for (let i = 0; i < array.length; i++) {
             count = count.toString().trim();
             var s = '<div class="song"><img class="song-img" src="' + array[i].image +
                 '"><div class="song-title"><span class="title">' + array[i].name + '</span><span>' + array[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + addNewID(prefixID, i) + '"><i class="far fa-play-circle"></i></a></div>';
-    
+
             count = Number(count);
             top_song.insertAdjacentHTML('beforeend', s);
-    
+
         }
-    }
-    else{
+    } else {
         var s = '<div class="song"><img class="song-img" src="./images/502-error.png"/><div class="song-title"><span class="title">Không Tìm Thấy Kết Quả Tương Ứng!</span></div>';
         top_song.insertAdjacentHTML('beforeend', s);
     }
@@ -475,31 +505,55 @@ function range_slider() {
         }
     }
 }
+
 function Search() {
     songtxt = $('#txtbaihat').val();
     singertxt = $('#txtcasi').val();
-    list_search =[];
-    for(let i=0;i<songs.length;i++){
-        if(songs[i].name.toLowerCase().includes(songtxt.toLowerCase()) && songs[i].singer.toLowerCase().includes(singertxt.toLowerCase()) ){
+    list_search = [];
+    for (let i = 0; i < songs.length; i++) {
+        if (songs[i].name.toLowerCase().includes(songtxt.toLowerCase()) && songs[i].singer.toLowerCase().includes(singertxt.toLowerCase())) {
             list_search.push({
                 name: songs[i].name,
                 path: songs[i].path,
                 image: songs[i].image,
                 singer: songs[i].singer,
-    
+
             })
         }
     }
     console.log(list_search);
-    if(list_search.length >0){
+    if (list_search.length > 0) {
         removeElement();
         document.querySelector('#banner-top-song').innerHTML = "Kết Quả Tìm Kiếm";
         loadListSong("tt", list_search);
-    }else{
+    } else {
         removeElement();
         document.querySelector('#banner-top-song').innerHTML = "Kết Quả Tìm Kiếm";
         loadListSong("tt", list_search);
     }
 
 
+}
+
+function getMyList() {
+    removeElement();
+    removeElement();
+
+    loadXML(docname1);
+
+    document.querySelector('#banner-top-song').innerHTML = "Danh sách của tôi";
+
+    const top_song = document.querySelector('#top_song');
+    count = 0;
+    if (mysongs.length > 0) {
+        for (let i = 0; i < mysongs.length; i++) {
+            count = count.toString().trim();
+            var s = '<div class="song"><img class="song-img" src="' + mysongs[i].image +
+                '"><div class="song-title"><span class="title">' + mysongs[i].name + '</span><span>' + mysongs[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + addNewID("", i) + '"><i class="far fa-play-circle"></i></a></div>';
+
+            count = Number(count);
+            top_song.insertAdjacentHTML('beforeend', s);
+
+        }
+    }
 }

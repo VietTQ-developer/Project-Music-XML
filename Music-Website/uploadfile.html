@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zing mp3 clone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="uploaddisplay">
+        <div id="customsselects" class="customsselects">
+            <div class="s1">
+                <form action="#" method="post" class="choosetype" id="choosetype">
+                    <h2 class="theloaiupdate">Chọn Thể Loại mà bạn muốn upload</h2>
+                    <div class="select">
+                        <input type="checkbox" id="toggle" class="toggle"> <label for="toggle">Thể Loại</label>
+                        <ul>
+                            <li class="select-option"><input type="radio" name="choice" id="c1" value="tru-tinh"><label for="cc1" onclick=uploadfile1()>Trữ Tình</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c2" value="cach-mang"><label for="cc2" onclick=uploadfile2()>Cách Mạng</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c3" value="thieu-nhi"><label for="cc3" onclick=uploadfile3()>Thiếu Nhi</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c4" value="us-uk"><label for="cc4" onclick=uploadfile4()>US-UK</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c5" value="bolero"><label for="cc5" onclick=uploadfile5()>Bolero</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c6" value="blue-jazz"><label for="cc6" onclick=uploadfile6()>Blue/Jazz</label></li>
+                            <li class="select-option"><input type="radio" name="choice" id="c7" value="rock"><label for="cc7" onclick=uploadfile7()>Rock</label></li>
+                        </ul>
+                    </div>
+
+                    <div class="uploadbutton">
+                        <label for="fileUpload" class="custom-file-upload"><i class="fa fa-cloud-upload"></i> Choose file Upload</label>
+                        <input id="fileUpload" type="file" accept="audio/*" onchange="ValidateSingleInput(this)" />
+                    </div>
+                    <div class="inputinfosong">
+                        <input id="title" type="text" placeholder="Name of song">
+                        <input id="signer" type="text" placeholder="Name of Singer">
+                        <button type="button" onclick="{uploadFile();saveXML();}">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+<script src="./index.js"></script>
+<script src="./uploadfiles.js"></script>
+<script>
+    var check_extention
+    var _validFileExtensions = [".mp3", ".WMA", ".WAV", ".FLAC", ".AAC", ".OGG", ".AIFF", ".ALAC"];
+
+    function ValidateSingleInput(oInput) {
+        if (oInput.type == "file") {
+            var sFileName = oInput.value;
+            if (sFileName.length > 0) {
+                var blnValid = false;
+                for (var j = 0; j < _validFileExtensions.length; j++) {
+                    var sCurExtension = _validFileExtensions[j];
+                    if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
+                        blnValid = true;
+                        break;
+                    }
+                }
+
+                if (!blnValid) {
+                    alert("Sorry, " + sFileName.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1] + " is invalid, allowed extensions are:" + _validFileExtensions.join(", "));
+                    oInput.value = "";
+                    check_extention = false;
+                    return false;
+                }
+            }
+        }
+        check_extention = true
+        return true;
+    }
+
+    $(document).ready(function() {
+
+        $(".select li").click(function() {
+            $(".select").css("display", "none");
+            $(".uploadbutton").css("display", "block");
+            $(".theloaiupdate").html("Select File Upload")
+
+        });
+        $(".uploadbutton").change(function() {
+            if (check_extention) {
+                $(".select").css("display", "none");
+                $(".uploadbutton").css("display", "none");
+                $(".inputinfosong").css("display", "block");
+                $(".theloaiupdate").html("Insert Information For File")
+                $(".test").css("display", "block");
+            }
+        });
+    });
+</script>
+
+</html>
