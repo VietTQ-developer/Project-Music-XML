@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <music>
     <audios>
-        <audio name="tru-tinh">
-            <singer>LongTV</singer>
-            <title>dap-vo-con-chim</title>
+        <audio name="bolero">
+            <singer>Tam ca áo trắng</singer>
+            <title>le-da-remix</title>
             <image>./images/fail-face.png</image>
-            <path>./songs/dap-vo-con-chim.mp3</path>
+            <path>./songs/long/le-da-remix.mp3</path>
         </audio>
-    <audio name="rock"><singer>Viet</singer><title>rock-rock</title><image>./images/fail-face.png</image><path>./songs/rock-rock.mp3</path></audio></audios>
+        <audio name="bolero">
+            <singer>Tốp ca giáo xứ</singer>
+            <title>pay-lac</title>
+            <image>./images/fail-face.png</image>
+            <path>./songs/long/pay-lac.mp3</path>
+        </audio>
+        <audio name="bolero">
+            <singer>Tốp ca giáo xứ</singer>
+            <title>nu-hong-mong-manh</title>
+            <image>./images/fail-face.png</image>
+            <path>./songs/long/nu-hong-mong-manh.mp3</path>
+        </audio>
+    </audios>
 </music>

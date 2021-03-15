@@ -72,7 +72,7 @@ var xmlDoc;
 var request;
 var docname = "music1.xml";
 var docname1 = "mysongs.xml";
-// dung ten chua?..rồi chạy lại di
+
 let timer;
 let autoplay = 0;
 
@@ -201,7 +201,6 @@ function showFeed() {
     //----------------------------------------------------------
     //get list US-UK
     var us_uk_node = xmlDoc.querySelectorAll("audio[name='us_uk']");
-
     for (i = 0; i < us_uk_node.length; i++) {
         var us_uk_title = us_uk_node[i].getElementsByTagName('title');
         var us_uk_singer = us_uk_node[i].getElementsByTagName('singer');
@@ -304,23 +303,25 @@ console.log(list_blue_jazz)
 console.log(list_rock);
 console.log(list_thieu_nhi);
 
+// loadXML(docname1);
 loadXML(docname);
 
-function loadTrack(index) {
+
+function loadTrack(index, array) {
     clearInterval(timer);
     reset_slider();
-
-    track.src = songs[index].path;
-    title.innerHTML = songs[index].name;
-    image.src = songs[index].image;
-    singer.innerHTML = songs[index].singer;
+    console.log(array[index].path);
+    track.src = array[index].path;
+    title.innerHTML = array[index].name;
+    image.src = array[index].image;
+    singer.innerHTML = array[index].singer;
 
     timer = setInterval(range_slider, 1000);
 
     track.load();
 }
 
-loadTrack(index);
+loadTrack(index, songs);
 
 function playSong() {
     track.play();
@@ -337,7 +338,7 @@ function pauseSong() {
 function nextSong() {
     if (index < songs.length - 1) {
         index += 1;
-        loadTrack(index);
+        loadTrack(index, songs);
         playSong();
     } else {
         index = 0;
@@ -350,12 +351,12 @@ function nextSong() {
 function previousSong() {
     if (index > 0) {
         index -= 1;
-        loadTrack(index);
+        loadTrack(index, songs);
         playSong();
 
     } else {
         index = songs.length;
-        loadTrack(index);
+        loadTrack(index, songs);
         playSong();
     }
 }
@@ -468,12 +469,27 @@ function getSongToPlay(clicked_id) {
 
     for (let index = 0; index < songs.length; index++) {
         if (songs[index].name == textTitle) {
-            console.log(index)
-            loadTrack(index);
+            loadTrack(index, songs);
             justPlay();
         }
     }
+}
 
+function getMySongToPlay(clicked_id) {
+    const p = document.getElementById(clicked_id).parentElement;
+    // console.log(p);
+    const child = p.children[1].querySelector("span[class=title]");
+    console.log(child.firstChild.nodeValue);
+
+    var textTitle = child.firstChild.nodeValue;
+
+    for (let index = 0; index < mysongs.length; index++) {
+        if (mysongs[index].name == textTitle) {
+            console.log(index)
+            loadTrack(index, mysongs);
+            justPlay();
+        }
+    }
 }
 
 function addNewID(prefixID, number) {
@@ -542,11 +558,14 @@ function Search() {
 
 }
 
+function start() {
+    checkClicked();
+    loadXML(docname1);
+}
+
 function getMyList() {
     removeElement();
-    removeElement();
 
-    loadXML(docname1);
 
     document.querySelector('#banner-top-song').innerHTML = "Danh sách của tôi";
 
@@ -556,7 +575,7 @@ function getMyList() {
         for (let i = 0; i < mysongs.length; i++) {
             count = count.toString().trim();
             var s = '<div class="song"><img class="song-img" src="' + mysongs[i].image +
-                '"><div class="song-title"><span class="title">' + mysongs[i].name + '</span><span>' + mysongs[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getSongToPlay(this.id)" id="' + addNewID("", i) + '"><i class="far fa-play-circle"></i></a></div>';
+                '"><div class="song-title"><span class="title">' + mysongs[i].name + '</span><span>' + mysongs[i].singer + '</span></div><a href="#" class="btn-song-play"  onclick="getMySongToPlay(this.id)" id="' + addNewID("", i) + '"><i class="far fa-play-circle"></i></a></div>';
 
             count = Number(count);
             top_song.insertAdjacentHTML('beforeend', s);

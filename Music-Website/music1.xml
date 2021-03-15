@@ -39,15 +39,7 @@
                 <description>An in-depth look at creating applications with XML.</description>
                 <view>190</view>
             </audio>
-            <audio name="tru_tinh">
-                <singer>Doãn Tần,Thanh Vinh</singer>
-                <title>Vì Nhân Dân Quên Mình</title>
-                <image>./images/Vi-Nhan-Dan-Quen-Minh.jpg</image>
-                <path>./songs/Nhac_Cach_Mang/Vi-Nhan-Dan-Quen-Minh.mp3</path>
-                <publish_date>1951-05-01</publish_date>
-                <description>An in-depth look at creating applications with XML.</description>
-                <view>100</view>
-            </audio>
+         
             <audio name="tru_tinh">
                 <singer>Ái Xuân</singer>
                 <title>Xuân Chiến Khu</title>

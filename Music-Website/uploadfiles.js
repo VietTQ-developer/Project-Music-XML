@@ -93,7 +93,7 @@ async function saveXML() {
     var title = filenametemp;
     var singer = document.getElementById("signer").value;
     var image = "./images/acbd.jpg";
-    var path = "./songs/" + fullname;
+    var path = "./songs/long" + fullname;
 
     $.ajax({
         url: "index.php",
