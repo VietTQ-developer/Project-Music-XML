@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<music>
+    <audios>
+        <audio name="tru-tinh">
+            <singer>LongTV</singer>
+            <title>dap-vo-con-chim</title>
+            <image>./images/fail-face.png</image>
+            <path>./songs/dap-vo-con-chim.mp3</path>
+        </audio>
+    <audio name="rock"><singer>Viet</singer><title>rock-rock</title><image>./images/fail-face.png</image><path>./songs/rock-rock.mp3</path></audio></audios>
+</music>

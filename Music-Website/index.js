@@ -1,4 +1,11 @@
-// Click Search Bar
+$(document).ready(function() {
+    $(".upmusic").click(function() {
+        $(".content").load("uploadfile.html");
+    });
+}); // Click Search Bar
+
+
+
 var searchbar = document.querySelector("#search");
 var songtext = document.querySelector("#txtbaihat");
 var singertext = document.querySelector("#txtcasi");
@@ -64,8 +71,8 @@ let playingSong = false;
 var xmlDoc;
 var request;
 var docname = "music1.xml";
-var docname1 = "mysong.xml";
-
+var docname1 = "mysongs.xml";
+// dung ten chua?..rồi chạy lại di
 let timer;
 let autoplay = 0;
 
@@ -92,7 +99,7 @@ function loadXML(docname) {
         }
         request.open("GET", docname, true); //make async
         request.send(null);
-        if (docname == "mysong.xml") {
+        if (docname == "mysongs.xml") {
             request.onreadystatechange = showFeed1;
         } else {
             request.onreadystatechange = showFeed;
