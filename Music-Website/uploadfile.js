@@ -55,6 +55,7 @@ async function uploadFile() {
         body: formData
     });
     alert('The file has been uploaded successfully.');
+    window.location.href = "./index.html";
 }
 
 
